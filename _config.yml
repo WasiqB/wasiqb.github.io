@@ -5,22 +5,22 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # `jekyll serve`. If you change this file, please restart the server process.
 
-minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "neon" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en"
 title                    : "wasiqb"
 title_separator          : "-"
 name                     : "Wasiq Bhamla"
-description              : "An amazing website."
+description              : "Senior QA Engineer // Open Source Contributor // Blogger // Trainer"
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository               : WasiqB/wasiqb.github.io # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-# breadcrumbs            : false # true, false (default)
+breadcrumbs              : true # true, false (default)
 words_per_minute         : 200
 comments:
-  provider               : # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "staticman_v2" "custom"
+  provider               : "facebook" # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "staticman_v2" "custom"
   disqus:
     shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   discourse:
@@ -28,8 +28,8 @@ comments:
   facebook:
     # https://developers.facebook.com/docs/plugins/comments
     appid                :
-    num_posts            : # 5 (default)
-    colorscheme          : # "light" (default), "dark"
+    num_posts            : 10 # 5 (default)
+    colorscheme          : "dark" # "light" (default), "dark"
 staticman:
   allowedFields          : # ['name', 'email', 'url', 'message']
   branch                 : # "master"
@@ -73,24 +73,30 @@ social:
   type                   : # Person or Organization (defaults to Person)
   name                   : # If the user or organization name differs from the site's name
   links: # An array of links to social media profiles
+    - "https://www.linkedin.com/in/wasiqbhamla"
+    - "https://twitter.com/WasiqBhamla"
+    - "https://www.facebook.com/wasiqb"
+    - "https://github.com/WasiqB"
+    - "https://plus.google.com/u/0/+WasiqBhamla"
+    - "https://stackoverflow.com/users/5320558/wasiq-bhamla"
 
 # Analytics
 analytics:
-  provider               : false # false (default), "google", "google-universal", "custom"
+  provider               : "google-universal" # false (default), "google", "google-universal", "custom"
   google:
-    tracking_id          :
+    tracking_id          : "UA-111539609-1"
 
 
 # Site Author
 author:
   name             : "Wasiq Bhamla"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an amazing person."
+  avatar           : "/assets/images/bio-photo.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  bio              : "Senior QA Engineer // Open Source Contributor // Blogger // Trainer."
   location         : "Mumbai, India"
   email            : "wasbhamla2005@gmail.com"
   uri              :
   home             : # null (default), "absolute or relative url to link to author home"
-  bitbucket        :
+  bitbucket        : "WasiqB"
   codepen          :
   dribbble         :
   flickr           :
@@ -98,14 +104,14 @@ author:
   foursquare       :
   github           : "WasiqB"
   gitlab           :
-  google_plus      :
+  google_plus      : "WasiqBhamla"
   keybase          :
   instagram        :
   lastfm           :
   linkedin         : "wasiqbhamla" # "john-doe-12345678" (the last part of your profile url, e.g. https://www.linkedin.com/in/john-doe-12345678)
   pinterest        :
   soundcloud       :
-  stackoverflow    : # "123456/username" (the last part of your profile url, e.g. https://stackoverflow.com/users/123456/username)
+  stackoverflow    : "5320558/wasiq-bhamla" # "123456/username" (the last part of your profile url, e.g. https://stackoverflow.com/users/123456/username)
   steam            : # "steamId" (the last part of your profile url, e.g. https://steamcommunity.com/id/steamId/)
   tumblr           :
   twitter          : "WasiqBhamla"
@@ -181,12 +187,13 @@ sass:
 # Outputting
 permalink: /:categories/:title/
 paginate: 10 # amount of posts to show
-paginate_path: /page:num/
+paginate_path: /blogs/page:num/
 timezone: Asia/Kolkata # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins (previously gems:)
 plugins:
+  - jekyll-archives
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-gist
@@ -219,17 +226,19 @@ tag_archive:
   type: liquid
   path: /tags/
 # https://github.com/jekyll/jekyll-archives
-# jekyll-archives:
-#   enabled:
-#     - categories
-#     - tags
-#   layouts:
-#     category: archive-taxonomy
-#     tag: archive-taxonomy
-#   permalinks:
-#     category: /categories/:name/
-#     tag: /tags/:name/
-
+jekyll-archives:
+  enabled:
+    - categories
+    - tags
+  layouts:
+    category: archive-taxonomy
+    tag: archive-taxonomy
+  permalinks:
+    category: /categories/:name/
+    tag: /tags/:name/
+    year: '/:year/'
+    month: '/:year/:month/'
+    day: '/:year/:month/:day/'
 
 # HTML Compression
 # - http://jch.penibelst.de/
@@ -238,6 +247,19 @@ compress_html:
   ignore:
     envs: development
 
+collections:
+  docs:
+    output: true
+    permalink: /:collection/:path/
+  recipes:
+    output: true
+    permalink: /:collection/:path/
+  pets:
+    output: true
+    permalink: /:collection/:path/
+  portfolio:
+    output: true
+    permalink: /:collection/:path/
 
 # Defaults
 defaults:
@@ -249,6 +271,13 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: # true
+      comments: true
       share: true
       related: true
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
