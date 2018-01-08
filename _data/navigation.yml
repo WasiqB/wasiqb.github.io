@@ -2,13 +2,15 @@
 main:
   - title: "About"
     url: /about/
+  - title: "CoTeAFS Suite"
+    url: /coteafs/
+  - title: "Tutorials"
+    url: /tutorials/
+  - title: "My Services"
+    url: /services/
   - title: "My Blogs"
     url: /blogs/
-  # - title: "About"
-  #   url: https://mmistakes.github.io/minimal-mistakes/about/
-  # - title: "Sample Posts"
-  #   url: /year-archive/
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
-  # - title: "Sitemap"
-  #   url: /sitemap/
+  - title: "My CV"
+    url: /cv/
+  - title: "Contact Me"
+    url: /contact/
