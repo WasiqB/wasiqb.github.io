@@ -1,14 +1,13 @@
 ---
-layout: single
+layout: archive
 author_profile: true
 permalink: /blogs/
+title: My Blogs
 ---
-{% capture written_year %}'None'{% endcapture %}
-{% for post in site.posts %}
-  {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
-  {% if year != written_year %}
-    <h2 id="{{ year | slugify }}" class="archive__subtitle">{{ year }}</h2>
-    {% capture written_year %}{{ year }}{% endcapture %}
-  {% endif %}
-  {% include archive-single.html %}
+{% assign postsByYear = site.posts | group_by_exp:"post", "post.date | date: '%Y'"  %}
+{% for year in postsByYear %}
+  <h2 id="{{ year.name | slugify }}" class="archive__subtitle">{{ year.name }}</h2>
+  {% for post in year.items %}
+    {% include archive-single.html %}
+  {% endfor %}
 {% endfor %}

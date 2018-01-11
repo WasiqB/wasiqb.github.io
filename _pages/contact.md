@@ -3,7 +3,9 @@ title: Contact Me
 permalink: /contact/
 ---
 
-<form action="https://formspree.io/{{ site.author.email }}"
+If you feel I can be of any help to you, don't hesitate to contact me. Reach out to me by filling out below form.
+
+<form accept-charset="UTF-8" action="https://formspree.io/{{ site.author.email }}"
       method="POST">
     <label>
         <span>Your Name?</span>
@@ -26,7 +28,7 @@ permalink: /contact/
         <span>Your Requirement?</span>
         <textarea name="details"></textarea>
     </label>
-    <!-- <input type="text" name="_gotcha" style="display:none" /> -->
+    <input type="hidden" name="_subject" value="New submission!" />
     <input type="hidden" name="_next" value="/thanks/" />
     <input type="submit" value="Submit">
 </form>

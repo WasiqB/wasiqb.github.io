@@ -1,0 +1,233 @@
+{
+  "basics": {
+    "name": "Wasiq Amjad Bhamla",
+    "label": "Test Automation Specialist / Open Source Contributor / Trainer",
+    "picture": "",
+    "email": "wasbhamla2005@gmail.com",
+    "phone": "(+91) 998 706 3686",
+    "website": "https://wasiqb.github.io",
+    "summary": "Richard hails from Tulsa. He has earned degrees from the University of Oklahoma and Stanford. (Go Sooners and Cardinal!) Before starting Pied Piper, he worked for Hooli as a part time software developer. While his work focuses on applied information theory, mostly optimizing lossless compression schema of both the length-limited and adaptive variants, his non-work interests range widely, everything from quantum computing to chaos theory. He could tell you about it, but THAT would NOT be a “length-limited” conversation!",
+    "location": {
+      "address": "Dockyard Road, Mumbai",
+      "postalCode": "400010",
+      "city": "Mumbai",
+      "countryCode": "IN",
+      "region": "Maharashtra"
+    },
+    "profiles": [
+      {
+        "network": "Facebook",
+        "username": "wasiqb",
+        "url": "https://www.facebook.com/wasiqb"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "wasiqbhamla",
+        "url": "https://www.linkedin.com/in/wasiqbhamla"
+      },
+      {
+        "network": "GitHub",
+        "username": "WasiqB",
+        "url": "https://github.com/WasiqB"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "Financial Technologies India Ltd.",
+      "position": "Software Audit Lead",
+      "website": "http://www.63moons.com/",
+      "startDate": "2007-03-12",
+      "endDate": "2015-01-09",
+      "summary": "Joined as Automation Tester Trainee with an aspiration to gain knowledge and experience on the QA front. Gradually, over the course of almost 8 years of association, was promoted to the role of Software Audit Test Lead and was playing a role of Test Architect and reported directly to Project Lead.",
+      "highlights": [
+        "Successfully Spearheaded migration process of 1000+ IBM Rational Robot test scripts to IBM Rational Functional Tester.",
+        "Created automated testing environment for testing of Desktop application of Protector.Net and Web applications of Match-Web application.",
+        "Owned and created automation framework with Windows object pattern concept using IBM RFT and TestNG which was accepted by the management and implemented with Protector.Net.",
+        "Prepared Defect Report for the products tested and submitted the same to the management.",
+        "Actively participated in preparation of Test Plan and Test estimation for Manual as well as Automation Testing as well as in creation of Test criteria and Test cases for different product functionalities.",
+        "Managed the Team of 4-5 Automation Testers and mentored them with respect to Automation Framework and domain knowledge.",
+        "Co-ordinated with the Development Team and Project Manager for Testing Analysis."
+      ]
+    },
+    {
+      "company": "Aurionpro Solution Pvt Ltd",
+      "position": "Senior QA Engineer",
+      "website": "http://www.aurionpro.com/",
+      "startDate": "2015-01-12",
+      "endDate": "",
+      "summary": "Joined as Senior QA Test Engineer with an aspiration for growth as well as gaining industry standard domain knowledge by learning optimum IT practices in AurionPro. I've been associated with this company for 3 years and reports to Senior Project Manager.",
+      "highlights": [
+        "Created automated testing environment for Web Service based on JSON / SOAP format using Rest-assured java library with DBUnit and TestNG and thereby maintained and created testing artifacts and allocated tasks to other team members.",
+        "Owned and created Mobile Test Automation Framework for Android and iOS mobiles and tablet's to test E2E flow for merchant and student University app for payment.",
+        "Owned and Created a flexible Test Automation Framework for Web Application in C# with Selenium WebDriver and Specflow cucumber and implemented Acceptance test scenarios.",
+        "Created a reusable end-to-end process Test Suite with Soap UI for leveraging manual testing of Web Services.",
+        "Managed a team of 2-3 QA Automation Testers and mentored them to come up with pace to meet the work challenges.",
+        "Performed Smoke and Regression Automation Testing of Web applications and Web Services in CI environment thus ensuring quality of release.",
+        "Reviewed Test scripts created by Team members and thereby ensured that proper coding standards and Test coverage are met.",
+        "Proactive in participating with new recruitment by conducting interviews for any open position within the team."
+      ]
+    }
+  ],
+  "volunteer": [],
+  "education": [
+    {
+      "institution": "Mumbai University",
+      "area": "Commerce",
+      "studyType": "Bachelor",
+      "startDate": "2003-06-01",
+      "endDate": "2006-03-01",
+      "gpa": "73.71",
+      "courses": []
+    },
+    {
+      "institution": "Aptech Ltd",
+      "area": "Advance Diploma in Software Engineering",
+      "studyType": "Diploma",
+      "startDate": "2003-04-01",
+      "endDate": "2006-06-01",
+      "gpa": "B+",
+      "courses": []
+    }
+  ],
+  "awards": [],
+  "publications": [],
+  "skills": [
+    {
+      "name": "Testing Tools",
+      "level": "Master",
+      "keywords": [
+        "Selenium WebDriver",
+        "Appium",
+        "SoapUI",
+        "TestNG",
+        "IBM RFT",
+        "IBM Rational Robot",
+        "Cucumber Specflow",
+        "Espresso",
+        "Geb",
+        "NUnit"
+      ]
+    },
+    {
+      "name": "Programming Languages",
+      "level": "Master",
+      "keywords": [
+        "Java",
+        "C#",
+        "Ruby",
+        "Groovy"
+      ]
+    },
+    {
+      "name": "DevOps Tools",
+      "level": "Master",
+      "keywords": [
+        "Maven",
+        "GitHub",
+        "BitBucket",
+        "Jenkins",
+        "Circle CI",
+        "Travis CI",
+        "JIRA",
+        "Confluence",
+        "Bamboo",
+        "SonarQube",
+        "Code Climate",
+        "Docker",
+        "StarTeam"
+      ]
+    },
+    {
+      "name": "Web Development",
+      "level": "Intermediate",
+      "keywords": [
+        "Jekyll",
+        "Ruby on Rails",
+        "sass",
+        "Jade",
+        "Gulp",
+        "Heroku"
+      ]
+    },
+    {
+      "name": "Database and Office tools",
+      "level": "Master",
+      "keywords": [
+        "MS SQL",
+        "PostgreSql",
+        "MS Access",
+        "MySQL",
+        "Outlook",
+        "Word",
+        "Excel",
+        "Powerpoint"
+      ]
+    },
+    {
+      "name": "Operating System",
+      "level": "Master",
+      "keywords": [
+        "Windows 10",
+        "Mac OSX"
+      ]
+    },
+    {
+      "name": "Development Environments",
+      "level": "Master",
+      "keywords": [
+        "Eclipse IDE",
+        "Visual Studio",
+        "VSCode",
+        "Android Studio"
+      ]
+    },
+    {
+      "name": "Communication Tools",
+      "level": "Master",
+      "keywords": [
+        "Skype",
+        "Zoom",
+        "GotoMeeting",
+        "TeamViewer"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Fluent"
+    },
+    {
+      "language": "Hindi",
+      "fluency": "Native Fluent"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Gaming",
+      "keywords": [
+        "Carrom",
+        "Mobile Games"
+      ]
+    }
+  ],
+  "references": [
+    {
+      "name": "Basant Kumar Varshney",
+      "reference": "Working with Wasiq Bhamla was a pleasure. He has always spoken with his work and not with the words. A good self learner and enthusiastic personality. Being non technical Graduate, his technical grasping and implementation has left the technical graduates behind. Wishing him success in his all endeavors."
+    },
+    {
+      "name": "Mahendra Mayekar",
+      "reference": "It was my pleasure to work with Wasiq. A silent and workaholic team member. He was always rigorous in his queries, insightful in his analysis and a very good QA Engineer. He is through professional and knows what exactly is expected from him. Wasiq is the person I would like to reach out to if I had an urgent quality delivery to be done."
+    },
+    {
+      "name": "Karna Patel",
+      "reference": "Wasiq is a technology buff and would be inclined to learn anything and everything under the sun in any technology. Wouldn't be scared to explore anything new. I wish him all the very best for all his future endeavours."
+    },
+    {
+      "name": "Vijay Utadia",
+      "reference": "Wasiq is hard working and intelligent person with the initiative and willingness to grow.He was the key member of my Testing team in FTIL.I would recommend Wasiq as a competent and skilled Testing professional and very good team player."
+    }
+  ]
+}
