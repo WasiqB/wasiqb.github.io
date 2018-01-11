@@ -1,5 +1,5 @@
 ---
 title: My CV
-permalink: cv
+permalink: /cv/
 layout: single
 ---
