@@ -5,15 +5,15 @@ permalink: /contact/
 
 If you feel I can be of any help to you, don't hesitate to contact me. Reach out to me by filling out below form.
 
-<form accept-charset="UTF-8" action="https://formspree.io/{{ site.author.email }}"
+<form accept-charset="UTF-8" action="https://getsimpleform.com/messages?form_api_token=8775af058890a21294d0e5336c9f7112"
       method="POST">
     <label>
         <span>Your Name?</span>
-        <input type="text" name="name">
+        <input type="text" name="name" />
     </label>
     <label>
         <span>Your E-Mail?</span>
-        <input type="email" name="_replyto">
+        <input type="email" name="email" />
     </label>
     <label>
         <span>Your Requirement?</span>
@@ -26,9 +26,10 @@ If you feel I can be of any help to you, don't hesitate to contact me. Reach out
     </label>
     <label>
         <span>Your Requirement?</span>
-        <textarea name="details"></textarea>
+        <textarea name="message"></textarea>
     </label>
-    <input type="hidden" name="_subject" value="New submission!" />
-    <input type="hidden" name="_next" value="/thanks/" />
+    <input type="hidden" name="subject" value="New submission!" />
+    <input type="hidden" name="redirect_to" value="{{ site.url }}/thanks/" />
+    <div class="g-recaptcha" data-sitekey="{{ site.reCaptcha.siteKey }}"></div>
     <input type="submit" value="Submit">
 </form>
