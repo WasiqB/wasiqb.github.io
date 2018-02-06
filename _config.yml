@@ -125,6 +125,7 @@ author:
 include:
   - .htaccess
   - _pages
+  - _coteafs
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
