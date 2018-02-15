@@ -9,7 +9,7 @@ minimal_mistakes_skin    : "sunrise" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "en"
-title                    : "wasiqb"
+title                    : "{ w -> wasiqb }"
 title_separator          : "-"
 name                     : &name "Wasiq Bhamla"
 description              : &description "Senior QA Engineer // Open Source Contributor // Blogger // Trainer"
@@ -126,6 +126,7 @@ include:
   - .htaccess
   - _pages
   - _coteafs
+  - _appium
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
@@ -248,10 +249,10 @@ compress_html:
   ignore:
     envs: development
 
-# collections:
-#   docs:
-#     output: true
-#     permalink: /:collection/:path/
+collections:
+  appium:
+    output: true
+    permalink: /:collection/:path/
 #   recipes:
 #     output: true
 #     permalink: /:collection/:path/
@@ -282,3 +283,14 @@ defaults:
     values:
       layout: single
       author_profile: true
+  - scope:
+      path: ""
+      type: appium
+    values:
+      layout: single
+      read_time: false
+      author_profile: false
+      share: false
+      comments: false
+      sidebar:
+        nav: "appium"

@@ -14,3 +14,35 @@ main:
     url: /cv/
   - title: "Contact Me"
     url: /contact/
+
+appium:
+  - title: Getting Started
+    children:
+      - title: Pre-requisite
+      - title: Usage
+      - title: Config file
+        children:
+          - title: Server Setting
+          - title: Device Setting
+      - title: Supported Devices
+      - title: Supported Device Actions
+      - title: Supported Device Element Actions
+      - title: Modularization
+        children:
+          - title: Abstract Activity Class
+          - title: Abstract Action Class
+      - title: ORP - Object Repository Pattern
+      - title: Error Handling
+      - title: Logging
+      - title: Verification
+      - title: Alert Handling
+      - title: Keyboard Handling
+      - title: Capture Screenshots
+      - title: Example
+        children:
+          - title: Config file
+          - title: Setup Class
+          - title: Activity Class
+          - title: Action Class
+          - title: Test Class
+      - title: Feedback
