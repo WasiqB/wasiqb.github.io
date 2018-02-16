@@ -18,31 +18,55 @@ main:
 appium:
   - title: Getting Started
     children:
+      - title: Introduction
+        url: /coteafs/appium/intro/
       - title: Pre-requisite
+        url: /coteafs/appium/pre-requisite/
       - title: Usage
-      - title: Config file
-        children:
-          - title: Server Setting
-          - title: Device Setting
+        url: /coteafs/appium/usage/
+  - title: Configuration
+    children:
+      - title: Basics
+        url: /coteafs/appium/config-basics/
+      - title: Server Setting
+        url: /coteafs/appium/server-setting/
+      - title: Device Setting
+        url: /coteafs/appium/device-setting/
+  - title: Core
+    children:
       - title: Supported Devices
+        url: /coteafs/appium/supported-devices/
       - title: Supported Device Actions
+        url: /coteafs/appium/supported-device-actions/
       - title: Supported Device Element Actions
-      - title: Modularization
-        children:
-          - title: Abstract Activity Class
-          - title: Abstract Action Class
+        url: /coteafs/appium/supported-device-element-actions/
       - title: ORP - Object Repository Pattern
+        url: /coteafs/appium/orp/
+  - title: Modularization
+    children:
+      - title: Abstract Activity Class
+        url: /coteafs/appium/activity-class/
+      - title: Abstract Action Class
+        url: /coteafs/appium/action-class/
+  - title: Extras
+    children:
       - title: Error Handling
+        url: /coteafs/appium/error-handling/
       - title: Logging
+        url: /coteafs/appium/logging/
       - title: Verification
+        url: /coteafs/appium/verification/
       - title: Alert Handling
+        url: /coteafs/appium/alerts/
       - title: Keyboard Handling
+        url: /coteafs/appium/keyboard/
       - title: Capture Screenshots
-      - title: Example
-        children:
-          - title: Config file
-          - title: Setup Class
-          - title: Activity Class
-          - title: Action Class
-          - title: Test Class
-      - title: Feedback
+        url: /coteafs/appium/screenshot/
+  - title: Example
+    children:
+      - title: Config file
+      - title: Setup Class
+      - title: Activity Class
+      - title: Action Class
+      - title: Test Class
+  - title: Feedback

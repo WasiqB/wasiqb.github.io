@@ -5,11 +5,11 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # `jekyll serve`. If you change this file, please restart the server process.
 
-minimal_mistakes_skin    : "sunrise" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "dirt" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en"
-title                    : "{ w -> wasiqb }"
+title                    : "w -> { wasiqb };"
 title_separator          : "-"
 name                     : &name "Wasiq Bhamla"
 description              : &description "Senior QA Engineer // Open Source Contributor // Blogger // Trainer"
@@ -253,15 +253,6 @@ collections:
   appium:
     output: true
     permalink: /:collection/:path/
-#   recipes:
-#     output: true
-#     permalink: /:collection/:path/
-#   pets:
-#     output: true
-#     permalink: /:collection/:path/
-#   portfolio:
-#     output: true
-#     permalink: /:collection/:path/
 
 # Defaults
 defaults:

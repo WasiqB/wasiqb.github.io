@@ -6,8 +6,8 @@ header:
   overlay_color: "#5e616c"
   overlay_filter: "0.5"
   overlay_image: /assets/images/appium/appium-banner.gif
-  cta_label: "Get Started"
-  cta_url: "/coteafs/appium/get-started/"
+  cta_label: "<i class='fas fa-download'></i> Get Started"
+  cta_url: "/coteafs/appium/intro/"
 excerpt: 'A tester friendly Mobile Automation Framework built on top of Appium which supports testing web and native apps for Android, iOS and Windows real or emulator Mobiles and Tablets. <br /><br /> {::nomarkdown}<iframe style="display: inline-block;" src="https://ghbtns.com/github-btn.html?user=WasiqB&repo=coteafs-appium&type=star&count=true&size=large" frameborder="0" scrolling="0" width="160px" height="30px"></iframe> <iframe style="display: inline-block;" src="https://ghbtns.com/github-btn.html?user=WasiqB&repo=coteafs-appium&type=fork&count=true&size=large" frameborder="0" scrolling="0" width="158px" height="30px"></iframe>{:/nomarkdown}'
 feature_row:
   - title: Highly Configurable
