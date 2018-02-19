@@ -6,11 +6,11 @@ main:
     url: /coteafs/
   - title: "Tutorials"
     url: /tutorials/
-  - title: "My Services"
+  - title: "Services"
     url: /services/
-  - title: "My Blogs"
+  - title: "Blogs"
     url: /blogs/
-  - title: "My CV"
+  - title: "CV"
     url: /cv/
   - title: "Contact Me"
     url: /contact/
@@ -34,14 +34,14 @@ appium:
         url: /coteafs/appium/device-setting/
   - title: Core
     children:
+      - title: ORP - Object Repository Pattern
+        url: /coteafs/appium/orp/
       - title: Supported Devices
         url: /coteafs/appium/supported-devices/
       - title: Supported Device Actions
         url: /coteafs/appium/supported-device-actions/
       - title: Supported Device Element Actions
         url: /coteafs/appium/supported-device-element-actions/
-      - title: ORP - Object Repository Pattern
-        url: /coteafs/appium/orp/
   - title: Modularization
     children:
       - title: Abstract Activity Class
@@ -65,8 +65,12 @@ appium:
   - title: Example
     children:
       - title: Config file
+        url: /coteafs/appium/sample-config/
       - title: Setup Class
+        url: /coteafs/appium/sample-setup-class/
       - title: Activity Class
+        url: /coteafs/appium/sample-activity-class/
       - title: Action Class
+        url: /coteafs/appium/sample-action-class/
       - title: Test Class
-  - title: Feedback
+        url: /coteafs/appium/sample-test-class/

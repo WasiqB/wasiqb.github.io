@@ -24,7 +24,8 @@
               {% else %}
                 "{{ f.image_path | absolute_url }}"
               {% endif %}
-            alt="{% if f.alt %}{{ f.alt }}{% endif %}">
+            alt="{% if f.alt %}{{ f.alt }}{% endif %}"
+            style="max-height: 250px; max-width: 250px;">
           </div>
         {% endif %}
 
