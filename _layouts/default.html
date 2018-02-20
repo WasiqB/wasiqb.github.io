@@ -15,6 +15,13 @@
     {% if site.reCaptcha.siteKey %}
     <script src='https://www.google.com/recaptcha/api.js'></script>
     {% endif %}
+    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <script>
+      (adsbygoogle = window.adsbygoogle || []).push({
+        google_ad_client: "ca-pub-5312466767582335",
+        enable_page_level_ads: true
+      });
+    </script>
   </head>
 
   <body class="layout--{{ page.layout | default: layout.layout }}{% if page.classes or layout.classes %}{{ page.classes | default: layout.classes | join: ' ' | prepend: ' ' }}{% endif %}">
@@ -23,14 +30,6 @@
     {% include masthead.html %}
     <div class="initial-content">
       {{ content }}
-
-      <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-      <script>
-        (adsbygoogle = window.adsbygoogle || []).push({
-          google_ad_client: "ca-pub-5312466767582335",
-          enable_page_level_ads: true
-        });
-      </script>
     </div>
 
     {% if site.search == true %}
