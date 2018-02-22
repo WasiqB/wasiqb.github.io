@@ -138,6 +138,7 @@
     margin-bottom: 2em;
     padding: 3em 0;
     @include clearfix;
+    text-align: center;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -165,10 +166,6 @@
     .btn {
       color: #fff;
       text-shadow: 1px 1px 4px rgba(#000, 0.5);
-    }
-
-    .page__lead {
-      max-width: $medium;
     }
 
     .page__title {
