@@ -1,0 +1,21 @@
+---
+layout: splash
+---
+
+{% assign cv = site.data.cv %}
+{% include portfolio/intro.html %}
+
+<div class="index inner">
+  <div>{{ content }}</div>
+  <div>
+    <div class="entries">
+      {% include portfolio/basics.html %}
+      {% include portfolio/work.html %}
+      {% include portfolio/education.html %}
+      {% include portfolio/skills.html %}
+      {% include portfolio/languages.html %}
+      {% include portfolio/interests.html %}
+      {% include portfolio/references.html %}
+    </div>
+  </div>
+</div>

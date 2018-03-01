@@ -1,15 +1,18 @@
 ---
 permalink: /about/
-title: About
+title: About Me
 ---
 
-## Professionally
-Wasiq is a Automated Testing specialist who loves what he does. He's been in this profession for almost 11 years now.
-He has worked with various testing tools, platforms and different domains. Apart from this, he is also an open source contributor where he creates testing frameworks which are easy to use and useful to others. To know more about his profession, check out his [CV](/cv/).
+I'm Wasiq Bhamla, a Test Automation professional, open source contributor, technology enthusiast and mentor. I've been in Test Automation field for past 11 years. I'm passionate about designing robust open sourced Test Automation Frameworks, discussing trending technologies, sharing my knowledge with like minded peoples, learning new skills and applying them.
 
-## Passions
-He is passionate to learn new technologies and keep up to pace with market trends about Automation testing space.
-He likes to share his knowledge with anybody who is equally passionate to learn. He likes helping his friends with their technical queries and also actively participate in online coding contests like Codeforces, HackerRank, Google Codejam to sharpen his algorithmic knowledge and learn advance algorithms.
+> You can have a look at the Automation Framework suite which I'm currently working on [here][coteafs].
 
-## Personally
-He also finds some time for gaming online or playing Carrom with friends. He also loves playing with his cute daughter and spend quality time with his family.
+In 2006, I completed my Bachelor's degree in Commerce from Mumbai University and Advanced Diploma in Software Engineering from [Aptech][aptech]. In 2007, I started working with [FTIL][job1] for almost 8 years. Now I'm working with [Aurionpro Solutions Ltd][job2] for past 3 years. I like playing around with Java to design and build robust and maintainable frameworks which helps in Automating tests for different platforms.
+
+> Check out my portfolio [here][cv]
+
+[job1]: http://www.63moons.com/
+[job2]: http://www.aurionpro.com/
+[coteafs]: /coteafs/
+[aptech]: http://www.aptech-education.com/
+[cv]: /cv/
