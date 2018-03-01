@@ -92,7 +92,7 @@ author:
   name             : *name
   avatar           : "/assets/images/bio-photo.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : *description
-  location         : {{ site.data.cv.basics.location }}
+  location         : Mumbai, India
   email            : "wasbhamla2005@gmail.com"
   uri              :
   home             : # null (default), "absolute or relative url to link to author home"
