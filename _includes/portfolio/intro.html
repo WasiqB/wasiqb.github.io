@@ -1,7 +1,9 @@
 <header class="intro">
   <div class="inner">
     <div class="intro-text">
+      {% if cv.basics.name %}
       <h1 class="intro-title">{{ cv.basics.name | default: page.title | markdownify | remove: '<p>' | remove: '</p>' }}</h1>
+      {% endif %}
       {% if cv.basics.label %}
         <p class="intro-subtitle">{{ cv.basics.label | markdownify | remove: '<p>' | remove: '</p>' }}</p>
       {% endif %}

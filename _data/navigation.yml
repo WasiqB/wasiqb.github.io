@@ -1,7 +1,5 @@
 # main links
 main:
-  - title: "About"
-    url: /about/
   - title: "CoTeAFS Suite"
     url: /coteafs/
   - title: "Tutorials"
@@ -10,8 +8,6 @@ main:
     url: /services/
   - title: "Blogs"
     url: /blogs/
-  - title: "CV"
-    url: /cv/
   - title: "Contact Me"
     url: /contact/
 

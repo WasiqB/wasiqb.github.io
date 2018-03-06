@@ -47,14 +47,14 @@
     <ul class="author__urls social-icons">
       {% if author.location %}
         <li itemprop="homeLocation" itemscope itemtype="http://schema.org/Place">
-          <i class="fas fa-map-marker-alt" aria-hidden="true"></i> <span itemprop="name">{{ author.location }}</span>
+          <i class="{{ site.data.icons.location }}" aria-hidden="true"></i> <span itemprop="name">{{ author.location }}</span>
         </li>
       {% endif %}
 
       {% if author.uri %}
         <li>
           <a href="{{ author.uri }}" itemprop="url">
-            <i class="fa fa-fw fa-chain" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].website_label | default: "Website" }}
+            <i class="{{ site.data.icons.uri }}" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].website_label | default: "Website" }}
           </a>
         </li>
       {% endif %}
@@ -63,7 +63,7 @@
         <li>
           <a href="mailto:{{ author.email }}">
             <meta itemprop="email" content="{{ author.email }}" />
-            <i class="fas fa-envelope" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].email_label | default: "Email" }}
+            <i class="{{ site.data.icons.mail }}" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].email_label | default: "Email" }}
           </a>
         </li>
       {% endif %}
@@ -79,7 +79,7 @@
       {% if author.twitter %}
         <li>
           <a href="https://twitter.com/{{ author.twitter }}" itemprop="sameAs">
-            <i class="fab fa-twitter" aria-hidden="true"></i> Twitter
+            <i class="{{ site.data.icons.twitter }}" aria-hidden="true"></i> Twitter
           </a>
         </li>
       {% endif %}
@@ -87,7 +87,7 @@
       {% if author.facebook %}
         <li>
           <a href="https://www.facebook.com/{{ author.facebook }}" itemprop="sameAs">
-            <i class="fab fa-facebook" aria-hidden="true"></i> Facebook
+            <i class="{{ site.data.icons.facebook }}" aria-hidden="true"></i> Facebook
           </a>
         </li>
       {% endif %}
@@ -95,7 +95,7 @@
       {% if author.google_plus %}
         <li>
           <a href="https://plus.google.com/{{ author.google_plus }}" itemprop="sameAs">
-            <i class="fab fa-google-plus-g" aria-hidden="true"></i> Google+
+            <i class="{{ site.data.icons.google_plus }}" aria-hidden="true"></i> Google+
           </a>
         </li>
       {% endif %}
@@ -103,7 +103,7 @@
       {% if author.linkedin %}
         <li>
           <a href="https://www.linkedin.com/in/{{ author.linkedin }}" itemprop="sameAs">
-            <i class="fab fa-linkedin" aria-hidden="true"></i> LinkedIn
+            <i class="{{ site.data.icons.linkedin }}" aria-hidden="true"></i> LinkedIn
           </a>
         </li>
       {% endif %}
@@ -135,7 +135,7 @@
       {% if author.bitbucket %}
         <li>
           <a href="https://bitbucket.org/{{ author.bitbucket }}" itemprop="sameAs">
-            <i class="fab fa-bitbucket" aria-hidden="true"></i> Bitbucket
+            <i class="{{ site.data.icons.bitbucket }}" aria-hidden="true"></i> Bitbucket
           </a>
         </li>
       {% endif %}
@@ -143,7 +143,7 @@
       {% if author.github %}
         <li>
           <a href="https://github.com/{{ author.github }}" itemprop="sameAs">
-            <i class="fab fa-github" aria-hidden="true"></i> GitHub
+            <i class="{{ site.data.icons.github }}" aria-hidden="true"></i> GitHub
           </a>
         </li>
       {% endif %}
@@ -151,7 +151,7 @@
       {% if author.gitlab %}
         <li>
           <a href="https://gitlab.com/{{ author.gitlab }}" itemprop="sameAs">
-            <i class="fab fa-gitlab" aria-hidden="true"></i> GitLab
+            <i class="{{ site.data.icons.gitlab }}" aria-hidden="true"></i> GitLab
           </a>
         </li>
       {% endif %}
@@ -159,7 +159,7 @@
       {% if author.stackoverflow %}
         <li>
           <a href="https://www.stackoverflow.com/users/{{ author.stackoverflow }}" itemprop="sameAs">
-            <i class="fab fa-stack-overflow" aria-hidden="true"></i> Stack Overflow
+            <i class="{{ site.data.icons.stackoverflow }}" aria-hidden="true"></i> Stack Overflow
           </a>
         </li>
       {% endif %}

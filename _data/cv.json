@@ -1,12 +1,9 @@
 {
   "basics": {
-    "name": "Wasiq Amjad Bhamla",
-    "label": "Test Automation Specialist / Open Source Contributor / Trainer",
     "picture": "",
     "email": "wasbhamla2005@gmail.com",
     "phone": "(+91) 998 706 3686",
     "website": "https://wasiqb.github.io",
-    "summary": "Richard hails from Tulsa. He has earned degrees from the University of Oklahoma and Stanford. (Go Sooners and Cardinal!) Before starting Pied Piper, he worked for Hooli as a part time software developer. While his work focuses on applied information theory, mostly optimizing lossless compression schema of both the length-limited and adaptive variants, his non-work interests range widely, everything from quantum computing to chaos theory. He could tell you about it, but THAT would NOT be a “length-limited” conversation!",
     "location": {
       "address": "Dockyard Road, Mumbai",
       "postalCode": "400010",
@@ -34,23 +31,6 @@
   },
   "work": [
     {
-      "company": "Financial Technologies India Ltd.",
-      "position": "Software Audit Lead",
-      "website": "http://www.63moons.com/",
-      "startDate": "2007-03-12",
-      "endDate": "2015-01-09",
-      "summary": "Joined as Automation Tester Trainee with an aspiration to gain knowledge and experience on the QA front. Gradually, over the course of almost 8 years of association, was promoted to the role of Software Audit Test Lead and was playing a role of Test Architect and reported directly to Project Lead.",
-      "highlights": [
-        "Successfully Spearheaded migration process of 1000+ IBM Rational Robot test scripts to IBM Rational Functional Tester.",
-        "Created automated testing environment for testing of Desktop application of Protector.Net and Web applications of Match-Web application.",
-        "Owned and created automation framework with Windows object pattern concept using IBM RFT and TestNG which was accepted by the management and implemented with Protector.Net.",
-        "Prepared Defect Report for the products tested and submitted the same to the management.",
-        "Actively participated in preparation of Test Plan and Test estimation for Manual as well as Automation Testing as well as in creation of Test criteria and Test cases for different product functionalities.",
-        "Managed the Team of 4-5 Automation Testers and mentored them with respect to Automation Framework and domain knowledge.",
-        "Co-ordinated with the Development Team and Project Manager for Testing Analysis."
-      ]
-    },
-    {
       "company": "Aurionpro Solution Pvt Ltd",
       "position": "Senior QA Engineer",
       "website": "http://www.aurionpro.com/",
@@ -66,6 +46,23 @@
         "Performed Smoke and Regression Automation Testing of Web applications and Web Services in CI environment thus ensuring quality of release.",
         "Reviewed Test scripts created by Team members and thereby ensured that proper coding standards and Test coverage are met.",
         "Proactive in participating with new recruitment by conducting interviews for any open position within the team."
+      ]
+    },
+    {
+      "company": "Financial Technologies India Ltd.",
+      "position": "Software Audit Lead",
+      "website": "http://www.63moons.com/",
+      "startDate": "2007-03-12",
+      "endDate": "2015-01-09",
+      "summary": "Joined as Automation Tester Trainee with an aspiration to gain knowledge and experience on the QA front. Gradually, over the course of almost 8 years of association, was promoted to the role of Software Audit Test Lead and was playing a role of Test Architect and reported directly to Project Lead.",
+      "highlights": [
+        "Successfully Spearheaded migration process of 1000+ IBM Rational Robot test scripts to IBM Rational Functional Tester.",
+        "Created automated testing environment for testing of Desktop application of Protector.Net and Web applications of Match-Web application.",
+        "Owned and created automation framework with Windows object pattern concept using IBM RFT and TestNG which was accepted by the management and implemented with Protector.Net.",
+        "Prepared Defect Report for the products tested and submitted the same to the management.",
+        "Actively participated in preparation of Test Plan and Test estimation for Manual as well as Automation Testing as well as in creation of Test criteria and Test cases for different product functionalities.",
+        "Managed the Team of 4-5 Automation Testers and mentored them with respect to Automation Framework and domain knowledge.",
+        "Co-ordinated with the Development Team and Project Manager for Testing Analysis."
       ]
     }
   ],

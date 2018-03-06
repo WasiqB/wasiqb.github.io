@@ -1,4 +1,0 @@
----
-permalink: /cv/
-layout: portfolio
----

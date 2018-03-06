@@ -1,32 +1,34 @@
 {% if cv.work %}
   <div id="work" class="entry">
     <header class="entry-header">
-      <h3 class="entry-title">Work</h3>
+      <h1 class="entry-title">Work Details</h1>
     </header>
-
     <div class="entry-content">
       {% for w in cv.work %}
         {% if w.company %}
-          <h3 class="name">
+          <h2 class="name">
             {% if w.website %}
               <a href="{{ w.website }}">{{ w.company }}</a>
             {% else %}
               {{ w.company }}
             {% endif %}
-          </h3>
+          </h2>
         {% endif %}
         {% if w.position %}
-          <h4 class="position">{{ w.position }}</h4>
+          <h3 class="position">{{ w.position }}</h3>
         {% endif %}
         <div class="date">
+          <h4>
           {% if w.startDate %}
-            <span class="startDate">{{ w.startDate }}</span>
+            {{ w.startDate }}
           {% endif %}
+          &mdash;
           {% if w.endDate == '' %}
-            <span class="endDate">{{ site.data.theme.t.present | default: 'Present' | prepend: ' &mdash; ' }}</span>
+            {{ site.data.theme.t.present | default: 'Present' }}
           {% else %}
-            <span class="endDate">{{ w.endDate | prepend: ' &mdash; ' }}</span>
+            {{ w.endDate }}
           {% endif %}
+          </h4>
         </div>
         {% if w.summary %}
           <div class="summary">

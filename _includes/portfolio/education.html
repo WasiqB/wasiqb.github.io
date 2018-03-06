@@ -1,28 +1,31 @@
 {% if cv.education %}
   <div id="education" class="entry">
     <header class="entry-header">
-      <h3 class="entry-title">Education</h3>
+      <h1 class="entry-title">Education</h1>
     </header>
 
     <div class="entry-content">
       {% for e in cv.education %}
         {% if e.institution %}
-          <h4 class="institution">{{ e.institution }}</h4>
+          <h2 class="institution">{{ e.institution }}</h2>
         {% endif %}
         <div class="date">
+          <h3>
           {% if e.startDate %}
-            <span class="startDate">{{ e.startDate }}</span>
+            {{ e.startDate }}
           {% endif %}
+          &mdash;
           {% if e.endDate == '' %}
-            <span class="endDate">{{ site.data.theme.t.present | default: 'Present' | prepend: ' &mdash; ' }}</span>
+            {{ site.data.theme.t.present | default: 'Present' }}
           {% else %}
-            <span class="endDate">{{ e.endDate | prepend: ' &mdash; ' }}</span>
+            <span class="endDate">{{ e.endDate }}
           {% endif %}
+          </h3>
         </div>
         {% if e.area %}
-          <div class="area"><strong>{{ e.area }}{% if e.studyType %}<span class="studyType">{{ e.studyType | prepend: ', ' }}</span>{% endif %}</strong>{% if e.gpa %}<span class="gpa">{{ e.gpa | prepend: ' (' | append: ' GPA)' }}</span>{% endif %}</div>
+          <div class="area">{{ e.area }}{% if e.studyType %}<span class="studyType">{{ e.studyType | prepend: ', ' }}</span>{% endif %}{% if e.gpa %}<span class="gpa">{{ e.gpa | prepend: ' (' | append: ' GPA)' }}</span>{% endif %}</div>
         {% endif %}
-        {% if e.courses %}
+        {% if e.courses and e.courses.length > 0 %}
           <h5 class="courses-title">Courses</h5>
           <ul class="courses">
             {% for course in e.courses %}

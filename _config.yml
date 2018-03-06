@@ -94,7 +94,7 @@ author:
   bio              : *description
   location         : Mumbai, India
   email            : "wasbhamla2005@gmail.com"
-  uri              :
+  uri              : "https://wasiqb.github.io"
   home             : # null (default), "absolute or relative url to link to author home"
   bitbucket        : "WasiqB"
   codepen          :
