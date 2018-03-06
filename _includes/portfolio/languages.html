@@ -6,13 +6,8 @@
 
     <div class="entry-content">
       {% for l in cv.languages %}
-        {% if l.language %}
-          <h2 class="language">{{ l.language }}</h2>
-        {% endif %}
-        {% if l.fluency %}
-          <div class="fluency">
-            <em>{{ l.fluency }}</em>
-          </div>
+        {% if l %}
+          <span class="badge badge-dark">{{ l }}</span>
         {% endif %}
       {% endfor %}
     </div>

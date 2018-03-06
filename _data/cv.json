@@ -102,6 +102,7 @@
         "IBM Rational Robot",
         "Cucumber Specflow",
         "Espresso",
+        "Postman",
         "Geb",
         "NUnit"
       ]
@@ -123,6 +124,7 @@
         "Maven",
         "GitHub",
         "BitBucket",
+        "Gitlab",
         "Jenkins",
         "Circle CI",
         "Travis CI",
@@ -141,6 +143,9 @@
       "keywords": [
         "Jekyll",
         "Ruby on Rails",
+        "HTML5",
+        "CSS3",
+        "Bootstrap4",
         "sass",
         "Jade",
         "Gulp",
@@ -165,8 +170,9 @@
       "name": "Operating System",
       "level": "Master",
       "keywords": [
-        "Windows 10",
-        "Mac OSX"
+        "Windows",
+        "Mac OSX",
+        "Ubuntu"
       ]
     },
     {
@@ -176,6 +182,7 @@
         "Eclipse IDE",
         "Visual Studio",
         "VSCode",
+        "Atom",
         "Android Studio"
       ]
     },
@@ -186,19 +193,15 @@
         "Skype",
         "Zoom",
         "GotoMeeting",
-        "TeamViewer"
+        "TeamViewer",
+        "Hangout"
       ]
     }
   ],
   "languages": [
-    {
-      "language": "English",
-      "fluency": "Fluent"
-    },
-    {
-      "language": "Hindi",
-      "fluency": "Native Fluent"
-    }
+    "English",
+    "Hindi",
+    "Urdu"
   ],
   "interests": [
     {
