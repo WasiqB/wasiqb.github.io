@@ -28,6 +28,11 @@
             style="max-height: 250px; max-width: 250px;">
           </div>
         {% endif %}
+        {% if f.icon %}
+          <div class="archive__item-teaser">
+            <i class="{{ f.icon }} fa-7x"></i>
+          </div>
+        {% endif %}
 
         <div class="archive__item-body">
           {% if f.title %}

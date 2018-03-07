@@ -6,12 +6,6 @@
   {% capture img_path %}{{ page.header.image | absolute_url }}{% endcapture %}
 {% endif %}
 
-{% if page.header.cta_url contains "://" %}
-  {% capture cta_path %}{{ page.header.cta_url }}{% endcapture %}
-{% else %}
-  {% capture cta_path %}{{ page.header.cta_url | absolute_url }}{% endcapture %}
-{% endif %}
-
 {% if page.header.overlay_image contains "://" %}
   {% capture overlay_img_path %}{{ page.header.overlay_image }}{% endcapture %}
 {% elsif page.header.overlay_image %}
@@ -49,8 +43,18 @@
       {% if site.read_time and page.read_time %}
         <p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}</p>
       {% endif %}
-      {% if page.header.cta_url %}
-        <p><a href="{{ cta_path }}" class="btn btn--light-outline btn--large">{{ page.header.cta_label | default: site.data.ui-text[site.locale].more_label | default: "Learn More" }}</a></p>
+
+      {% if page.header.cta %}
+        {% for c in page.header.cta %}
+          {% if c.url %}
+            {% if c.url contains "://" %}
+              {% capture cta_path %}{{ c.url }}{% endcapture %}
+            {% else %}
+              {% capture cta_path %}{{ c.url | absolute_url }}{% endcapture %}
+            {% endif %}
+            <a href="{{ cta_path }}" class="btn btn--light-outline btn--large"><i class="{{ c.icon }}"></i> {{ c.label | default: site.data.ui-text[site.locale].more_label | default: "Learn More" }}</a>
+          {% endif %}
+        {% endfor %}
       {% endif %}
     </div>
   {% else %}
