@@ -18,7 +18,7 @@
           <h3 class="position">{{ w.position }}</h3>
         {% endif %}
         <div class="date">
-          <h4>
+          <h4><em>
           {% if w.startDate %}
             {{ w.startDate }}
           {% endif %}
@@ -28,7 +28,7 @@
           {% else %}
             {{ w.endDate }}
           {% endif %}
-          </h4>
+        </em></h4>
         </div>
         {% if w.summary %}
           <div class="summary">

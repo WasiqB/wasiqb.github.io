@@ -3,7 +3,11 @@ title: Contact Me
 permalink: /contact/
 ---
 
-If you feel I can be of any help to you, don't hesitate to contact me. Reach out to me by filling out below form.
+Feel free to contact me, if,
+* You have a great job opportunity?
+* You have some interesting project for freelancing support?
+* You require personalized training for Test Automation?
+* Our interest matches?
 
 <script type="text/javascript">var submitted=false;</script>
 <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted)  {window.location='{{ site.url }}/thanks/';}"></iframe>
@@ -43,7 +47,7 @@ $("form").submit(function(event) {
         event.preventDefault();
         alert("Please check the recaptcha");
     }
-});//]]> 
+});//]]>
         </script>
     </fieldset>
 </form>
