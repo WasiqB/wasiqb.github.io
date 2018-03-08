@@ -1,7 +1,7 @@
 {% if cv.education %}
   <div id="education" class="entry">
     <header class="entry-header">
-      <h1 class="entry-title">Education</h1>
+      <h1 class="entry-title"><i class="fas fa-book"></i> Education</h1>
     </header>
 
     <div class="entry-content">
@@ -10,7 +10,7 @@
           <h2 class="institution">{{ e.institution }}</h2>
         {% endif %}
         <div class="date">
-          <h3>
+          <h3><i class="far fa-calendar-alt"></i> 
           {% if e.startDate %}
             {{ e.startDate }}
           {% endif %}

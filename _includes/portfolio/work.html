@@ -1,7 +1,7 @@
 {% if cv.work %}
   <div id="work" class="entry">
     <header class="entry-header">
-      <h1 class="entry-title">Work Details</h1>
+      <h1 class="entry-title"><i class="fas fa-briefcase"></i> Work History</h1>
     </header>
     <div class="entry-content">
       {% for w in cv.work %}
@@ -18,7 +18,7 @@
           <h3 class="position">{{ w.position }}</h3>
         {% endif %}
         <div class="date">
-          <h4><em>
+          <h4><i class="far fa-calendar-alt"></i> <em>
           {% if w.startDate %}
             {{ w.startDate }}
           {% endif %}
@@ -27,8 +27,8 @@
             {{ site.data.theme.t.present | default: 'Present' }}
           {% else %}
             {{ w.endDate }}
-          {% endif %}
-        </em></h4>
+          {% endif %},
+        </em><i class="fas fa-map-marker-alt"></i> {{ w.location }}</h4>
         </div>
         {% if w.summary %}
           <div class="summary">

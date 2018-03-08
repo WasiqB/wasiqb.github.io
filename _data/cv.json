@@ -36,6 +36,7 @@
       "website": "http://www.aurionpro.com/",
       "startDate": "2015-01-12",
       "endDate": "",
+      "location": "Mumbai, India",
       "summary": "Joined as Senior QA Test Engineer with an aspiration for growth as well as gaining industry standard domain knowledge by learning optimum IT practices in AurionPro. I've been associated with this company for 3 years and reports to Senior Project Manager.",
       "highlights": [
         "Created automated testing environment for Web Service based on JSON / SOAP format using Rest-assured java library with DBUnit and TestNG and thereby maintained and created testing artifacts and allocated tasks to other team members.",
@@ -54,6 +55,7 @@
       "website": "http://www.63moons.com/",
       "startDate": "2007-03-12",
       "endDate": "2015-01-09",
+      "location": "Mumbai, India",
       "summary": "Joined as Automation Tester Trainee with an aspiration to gain knowledge and experience on the QA front. Gradually, over the course of almost 8 years of association, was promoted to the role of Software Audit Test Lead and was playing a role of Test Architect and reported directly to Project Lead.",
       "highlights": [
         "Successfully Spearheaded migration process of 1000+ IBM Rational Robot test scripts to IBM Rational Functional Tester.",
