@@ -37,16 +37,25 @@ Feel free to contact me, if,
             <textarea name="entry.1131025310" required></textarea>
         </label>
         <input type="hidden" name="subject" value="New submission!" />
-        <!-- <input type="hidden" name="redirect_to" value="{{ site.url }}/thanks/" /> -->
-        <div class="g-recaptcha" data-sitekey="{{ site.reCaptcha.siteKey }}"></div>
-        <input type="submit" name="submit" value="Submit">
+        <span class="msg-error error"></span>
+        <div id="recaptcha" class="g-recaptcha" data-sitekey="{{ site.reCaptcha.siteKey }}"></div>
+        <input id="btn-submit" type="submit" name="submit" value="Submit">
         <script type='text/javascript'>//<![CDATA[
-$("form").submit(function(event) {
-    var recaptcha = $("#g-recaptcha-response").val();
-    if (recaptcha === "") {
-        event.preventDefault();
-        alert("Please check the recaptcha");
-    }
+        $( '#btn-submit' ).click(function(){
+          var $captcha = $( '#recaptcha' ),
+              response = grecaptcha.getResponse();
+          
+          if (response.length === 0) {
+            $( '.msg-error').text( "reCAPTCHA is mandatory" );
+            if( !$captcha.hasClass( "error" ) ){
+              $captcha.addClass( "error" );
+            }
+          } else {
+            $( '.msg-error' ).text('');
+            $captcha.removeClass( "error" );
+            alert( 'reCAPTCHA marked' );
+          }
+        })
 });//]]>
         </script>
     </fieldset>
