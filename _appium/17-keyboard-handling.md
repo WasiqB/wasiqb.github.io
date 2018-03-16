@@ -14,3 +14,8 @@ final LoginActivity login = new LoginActivity (this.androidDevice);
 login.onDevice ().hideKeyboard ();
 . . .
 ```
+
+### List of keyboard events available
+* `hideKeyboard ()`
+* `pressBack ()`
+* `pressEnter ()`

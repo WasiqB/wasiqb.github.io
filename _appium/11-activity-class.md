@@ -12,6 +12,7 @@ To introduce Page object flavor in our tests, we have Abstract Activity classes 
 * `WindowsActivity`
 
 ### How to write an Activity?
+
 I will demonstrate the use of DeviceActivity by assuming that we are working on Android Device and the Activity is LoginActivity.
 
 ```java

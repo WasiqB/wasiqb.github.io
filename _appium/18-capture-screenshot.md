@@ -5,6 +5,7 @@ toc: true
 ---
 
 ### A. Manual screenshot capture.
+
 Framework allows you to take screenshots of any Activity which you are working on whenever you need. Following is the code snippet for the same.
 
 ```java
@@ -20,4 +21,4 @@ login.onDevice ().captureScreenshot ();
 
 ### B. Auto screenshot capture when Error.
 
-> TODO...
+In order to enable auto screenshot functionality, you must enable it from config file under device settings under playback block by setting `screensho_on_error` property to `true`.

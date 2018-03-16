@@ -4,7 +4,7 @@ title: "Configuration Basics"
 toc: true
 ---
 
-Config file is the heart of this framework. It is supported by [coteafs-configs](https://github.com/WasiqB/coteafs-config) framework which supports yaml file format parsing. This config file will contain all the settings needed for your tests. The framework will try to find System property `coteafs.appium.config` which will have the path of the config file. If it is not specified, by default, it will search the file at `appium-config.yaml` under `src/test/resources` directory. If this file is not found in that location as well, then it will throw `CoteafsConfigFileNotFoundError`.
+Config file is the heart of this framework. It is supported by [coteafs-configs][config] framework which supports yaml file format parsing. This config file will contain all the settings needed for your tests. The framework will try to find System property `coteafs.appium.config` which will have the path of the config file. If it is not specified, by default, it will search the file at `appium-config.yaml` under `src/test/resources` directory. If this file is not found in that location as well, then it will throw `CoteafsConfigFileNotFoundError`.
 
 ### Important points to remember when writing the config file
 
@@ -13,3 +13,5 @@ Config file is the heart of this framework. It is supported by [coteafs-configs]
 * All the keys in the config file should be as defined in the coming section.
 * Whichever key is described as key-value pair can have any casing key.
 * Spelling of the key should be same as provided in it's individual sections which is given below.
+
+[config]: https://github.com/WasiqB/coteafs-config

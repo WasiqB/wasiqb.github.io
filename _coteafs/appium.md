@@ -5,7 +5,7 @@ layout: splash
 header:
   overlay_color: "#5e616c"
   overlay_filter: "0.5"
-  overlay_image: /assets/images/appium/appium-banner.gif
+  overlay_image: /assets/images/coteafs/appium-banner.gif
   cta:
     - label: Get Started
       icon: fas fa-download
@@ -39,7 +39,5 @@ feature_row:
   - title: Supports external Testing Framework
     excerpt: It can be easily integrated with external testing tools for test execution, e.g. TestNG, JUnit,  Cucumber, etc.
     icon: fas fa-external-link-alt
-github:
-  - excerpt: '{::nomarkdown}<iframe style="display: inline-block;" src="https://ghbtns.com/github-btn.html?user=mmistakes&repo=minimal-mistakes&type=star&count=true&size=large" frameborder="0" scrolling="0" width="160px" height="30px"></iframe> <iframe style="display: inline-block;" src="https://ghbtns.com/github-btn.html?user=mmistakes&repo=minimal-mistakes&type=fork&count=true&size=large" frameborder="0" scrolling="0" width="158px" height="30px"></iframe>{:/nomarkdown}'
 ---
 {% include feature_row %}

@@ -21,17 +21,15 @@ Following is the list of actions common on all the devices:
 * `swipe`: This method will swipe in the specified direction and by specified distance from center of the screen to the device screen borders.
 * `zoom`: This will zoom in to the current activity by specified distance from center of the screen to the device screen borders.
 
+> Caution: Zoom and Pinch is not working due to issue with Java Client of Appium.
+> If you have a working code then you are welcome to raise and issue along with your working code.
+> We will be happy to help you.
+
 ### Swipe Directions available
 1. `RIGHT`
 1. `LEFT`
 1. `UP`
 1. `DOWN`
-
-### Swipe distance from center to border available
-1. `QUARTER`
-1. `HALF`
-1. `THREE_QUARTER`
-1. `FULL`
 
 ### Android specific actions
 * `currentActivity`: Gets the name of current activity.

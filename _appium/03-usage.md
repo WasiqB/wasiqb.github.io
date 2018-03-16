@@ -11,7 +11,7 @@ The framework can be used directly by adding dependency in the `POM.xml` file as
 <dependency>
   <groupId>com.github.wasiqb.coteafs</groupId>
   <artifactId>appium</artifactId>
-  <version>2.1.0</version>
+  <version>2.2.0</version>
 </dependency>
 ```
 
