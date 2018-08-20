@@ -31,11 +31,28 @@
   },
   "work": [
     {
+      "company": "CrossAsyst Technologies Pvt Ltd",
+      "position": "Lead QA Automation Engineer",
+      "website": "http://www.xasyst.com/",
+      "startDate": "2018-04-02",
+      "endDate": "",
+      "location": "Mumbai, India",
+      "summary": "Joined as Lead QA Automation Engineer in CrossAsyst. I've been associated with this company for under a year and reports to QA Manager.",
+      "highlights": [
+        "Created automated testing environment for Web Service based on JSON format using Rest-assured java library with TestNG and thereby maintained and created testing artifacts and allocated tasks to other team members.",
+        "Owned and Created a flexible Test Automation Framework for Web Application in Java with Selenium WebDriver.",
+        "Managed a team of 2-3 QA Automation Testers and mentored them to come up with pace to meet the work challenges.",
+        "Performed Smoke and Regression Automation Testing of Web applications and Web Services in CI environment thus ensuring quality of release.",
+        "Reviewed Test scripts created by Team members and thereby ensured that proper coding standards and Test coverage are met.",
+        "Proactive in participating with new recruitment by conducting interviews for any open position within the team."
+      ]
+    },
+    {
       "company": "Aurionpro Solution Pvt Ltd",
       "position": "Senior QA Engineer",
       "website": "http://www.aurionpro.com/",
       "startDate": "2015-01-12",
-      "endDate": "",
+      "endDate": "2018-03-27",
       "location": "Mumbai, India",
       "summary": "Joined as Senior QA Test Engineer with an aspiration for growth as well as gaining industry standard domain knowledge by learning optimum IT practices in AurionPro. I've been associated with this company for 3 years and reports to Senior Project Manager.",
       "highlights": [
@@ -174,7 +191,7 @@
       "keywords": [
         "Windows",
         "Mac OSX",
-        "Ubuntu"
+        "Linux Ubuntu"
       ]
     },
     {
