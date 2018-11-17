@@ -19,6 +19,9 @@ Following is the list of actions common on all the device elements:
 * `click`: It is similar to tap but more useful for web testing.
 * `enabled`: It checks and returns the element state whether it is enabled or not.
 * `enterText`: It will clear any existing text and will write the specified string.
+* `doubleTap`: It will double tap on element.
+* `nTaps`: It will perform n-taps on element.
+* `dragDrop`: It will drag drop of element to another element.
 * `getDevice`: It returns the current device instance under test.
 * `getDriver`: It returns current driver instance for external use.
 * `longPress`: It will long press on the element until context menu appears.
@@ -31,11 +34,10 @@ Following is the list of actions common on all the device elements:
 * `zoom`: This will zoom in to the current element by specified distance from center of the element to the elements borders.
 * `verifyThat`: It returns the verification instance which we can use to perform assertions on the elements.
 
+> Note:
+> Zoom and Pinch will only work when Automation Type is Espresso.
+
 ### Known issue and workarounds
 * **Swipe Down:**
   * **Issue:** When swiping on element with finger on top border doesn't swipes from top to down but instead swipes down to top. Same is also reported to Appium team [#827](https://github.com/appium/java-client/issues/827).
   * **Workaround:** In coteafs-appium, it has handled the workaround for the issue by starting 5 pixels away from border.
-
-> Caution: Zoom and Pinch is not working due to issue with Java Client of Appium.
-> If you have a working code then you are welcome to raise and issue along with your working code.
-> We will be happy to help you.

@@ -4,19 +4,19 @@ title: "Pre-Requisite"
 toc: true
 ---
 
-### A. Maven Depenedency
+### A. Maven Dependency
 The framework can be used directly by adding dependency in the `POM.xml` file as shown below:
 
 ```xml
 <dependency>
   <groupId>com.github.wasiqb.coteafs</groupId>
   <artifactId>appium</artifactId>
-  <version>2.2.0</version>
+  <version>3.0.0</version>
 </dependency>
 ```
 
 > NOTE:
-Sometimes it is observed that due some conflicting dependencies for SnakeYaml and Google's Guava, you need to make sure you add exclusion in other library dependenceis (which is internally using an old version of the above mentioned library) which you may use in your pom along with this framework. This is how you do this:
+Sometimes it is observed that due to some conflicting dependencies for SnakeYaml and Google's Guava, you need to make sure you add exclusion in other library dependenceis (which is internally using an old version of the above mentioned library) which you may use in your pom along with this framework. This is how you do this:
 
 ```xml
 <dependency>

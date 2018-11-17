@@ -12,14 +12,15 @@ Key | Platform | Allowed Values | Description
 `device_type` | All | REAL, SIMULATOR | Device type.
 `platform_type` | All | ANDROID, IOS, WINDOWS | Platform type.
 `device_version` | All | | Platform version.
-`automation_name` | All | APPIUM, XCUI | Automation used.
+`automation_name` | All | APPIUM, UIAUTOMATOR2, ESPRESSO, XCUI | Automation used.
 `app_type` | All | HYBRID, NATIVE, WEB | Application Type.
 `android` | Android | NA | Android device specific settings. See [here][android].
 `ios` | iOS | NA | iOS device specific settings. See [here][ios].
 `playback` | All | NA | Playback specific settings. See [here][playback].
 `event_timings` | All | true, false | Event Timings.
-`app_location` | All | | Local path to Application apk or ipa file.
+`app_location` | All | | Local path to Application apk or ipa file or Cloud URL for App when Cloud App flag is ON.
 `external_app` | All | true, false | false, if app resides in `src/test/resources` folder, otherwise, true.
+`cloud_app` | All | true, false | true, if app is located on cloud.
 `clear_system_files` | All | true, false | true, will clear all the files after driver quit, else, false.
 `session_timeout` | All | Int | New command timeout value.
 `no_reset` | All | false | true, if app reset is not required, else, can be omitted.
@@ -82,6 +83,19 @@ Key | Platform | Allowed Values | Description
 `screensho_on_error` | Both | Boolean | True, will capture screenshot on error.
 `screen_shot_path` | Both | String | Path to the folder where screenshots will be stored.
 `screen_shot_prefix` | Both | String | Prefix for the screenshot file name.
+`record` | Both | Boolean | If true, video recording feature will be enabled.
+
+### Record Settings
+
+Key | Platform | Allowed Values | Description
+----|----------|----------------|------------
+`bit_rate` | Android | Int | Bit rate for the recorded video. Defaults `4`.
+`duration` | Both | Int | Time limit of the video. Max limit for `Android: 3 mins, iOS: 10 mins`
+`enabled` | Both | Boolean | If true, feature will be enabled.
+`path` | Both | String | Path for the video, Defaults to `/video` directory under your test project.
+`prefix` | Both | String | Prefix for the video file. Defaults `VID`.
+`quality` | iOS | LOW, MEDIUM, HIGH, PHOTO | Video Quality. Defaults `MEDIUM`.
+`size` | Android | String (Format: WIDTHxHEIGHT) | Resolution of the video.
 
 [android]: #android-device-settings
 [playback]: #playback-settings

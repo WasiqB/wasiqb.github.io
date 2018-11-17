@@ -20,20 +20,20 @@ Let's see an example of how to create `DeviceElement` of a Login Activity.
         // This is the root element as seen in Inspector. This can be any parent
         // displayed in inspector which contains all the other input elements.
 	final DeviceElement login = DeviceElement.create ("Login")	// <- create - You can specify any name you want. This will be refereed from our tests. It is case sensitive.
-		.using (By.className ("UIAApplication"));	// <- using - Specify the locator you identified using the inspector.
+		.forAndroid (By.className ("UIAApplication"));	// <- forAndroid - Specify the locator you identified using the inspector.
     	// This is the child element of login created above.
 	DeviceElement.create ("UserName")
 		.parent (login)		// <- parent - Specify the parent of this element.
 		.index (1)		// <- index - Specify the index where this element will be found. can be skipped if there is only 1 element with the specified locator.
-		.using (By.className ("UIATextField"));
+		.forAndroid (By.className ("UIATextField"));
     	// This is also the child element of login created above.
 	DeviceElement.create ("Password")
 		.parent (login)
-		.using (By.className ("UIASecureTextField"));
+		.forAndroid (By.className ("UIASecureTextField"));
     	// This is also the child element of login created above.
 	DeviceElement.create ("SignIn")
 		.parent (login)
-		.using (By.name ("Sign In"));
+		.forAndroid (By.name ("Sign In"));
 ```
 
 The code snippet explains everything. If you still find it difficult to understand, you can discuss it with me on our [mailing list][groups] or on our [Gitter chats][gitter].

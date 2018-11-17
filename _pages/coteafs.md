@@ -11,7 +11,7 @@ excerpt: Continuous Test Automation Framework Solution (CoTeAFS) is an easy to u
 feature_row:
   - title: "coteafs-appium"
     image_path: /assets/images/coteafs/appium.png
-    excerpt: "A tester friendly Mobile Automation Framework built on top of Appium which supports testing web and native apps for Android, iOS and Windows real or emulator Mobiles and Tablets."
+    excerpt: "Wrapper Appium Test Automation Framework which supports Automation of Mobile and Tablet apps for Android and iOS Real Devices / Emulators."
     url: "/coteafs/appium/"
     btn_class: "btn--primary"
     btn_label: "Learn More"
