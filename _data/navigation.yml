@@ -58,6 +58,10 @@ appium:
         url: /coteafs/appium/keyboard/
       - title: Capture Screenshots
         url: /coteafs/appium/screenshot/
+      - title: Video Recording
+        url: /coteafs/appium/video/
+      - title: Battery Check
+        url: /coteafs/appium/battery/
   - title: Example
     children:
       - title: Config file

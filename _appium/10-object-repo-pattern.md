@@ -17,26 +17,30 @@ The `DeviceElement` class saves all the elements available on current Activity i
 Let's see an example of how to create `DeviceElement` of a Login Activity.
 
 ```java
-        // This is the root element as seen in Inspector. This can be any parent
-        // displayed in inspector which contains all the other input elements.
-	final DeviceElement login = DeviceElement.create ("Login")	// <- create - You can specify any name you want. This will be refereed from our tests. It is case sensitive.
-		.forAndroid (By.className ("UIAApplication"));	// <- forAndroid - Specify the locator you identified using the inspector.
-    	// This is the child element of login created above.
-	DeviceElement.create ("UserName")
-		.parent (login)		// <- parent - Specify the parent of this element.
-		.index (1)		// <- index - Specify the index where this element will be found. can be skipped if there is only 1 element with the specified locator.
-		.forAndroid (By.className ("UIATextField"));
-    	// This is also the child element of login created above.
-	DeviceElement.create ("Password")
-		.parent (login)
-		.forAndroid (By.className ("UIASecureTextField"));
-    	// This is also the child element of login created above.
-	DeviceElement.create ("SignIn")
-		.parent (login)
-		.forAndroid (By.name ("Sign In"));
+  // This is the root element as seen in Inspector. This can be any parent
+  // displayed in inspector which contains all the other input elements.
+  final DeviceElement main = DeviceElement.create ("Main")
+    .forAndroid (By.id ("android:id/content"));
+  DeviceElement.create ("Back")
+    .parent (main)    // Parent of current element.
+    .waitStrategy (WaitStrategy.VISIBLE)  // Wait strategy to be used while finding the element.
+    .index (1)    // Index of element when multiple elements for same locator exists.
+    .forAndroid (By.xpath ("//android.widget.TextView[@text=\"Back\"]"))     // Locator used to find the element.
+    // We can set multiple locators for different Automation names.
+    .forAndroid (AutomationType.UIAUTOMATOR2, MobileBy.AndroidUIAutomator ("new UiSelector ().text (\"Back\");"));
+  DeviceElement.create ("UserName")
+    .forAndroid (MobileBy.AccessibilityId ("username"))
+    .parent (main);
+  DeviceElement.create ("Password")
+    .forAndroid (MobileBy.AccessibilityId ("password"))
+    .parent (main);
+  DeviceElement.create ("Login")
+    .forAndroid (MobileBy.AccessibilityId ("login"))
+    .parent (main);
 ```
 
-The code snippet explains everything. If you still find it difficult to understand, you can discuss it with me on our [mailing list][groups] or on our [Gitter chats][gitter].
+As you might have noticed `forAndroid` method which refers to locators specific for Android platform. Same way there is `forIos` method for iOS platform to save iOS specific locator.
+
+The code snippet explains everything. If you still find it difficult to understand, you can discuss it with me on our [mailing list][groups] or directly chat with me here.
 
 [groups]: https://groups.google.com/forum/#!forum/coteafs-appium
-[gitter]: https://gitter.im/wasiqb/coteafs-appium

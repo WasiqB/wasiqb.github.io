@@ -10,6 +10,7 @@ Following is the list of exception and their events of occurring:
 Exception | Events
 ----------|-------
 `AppiumConfigParameterNotFoundError` | When the config file is missing mandatory params.
+`AppiumSelectorNotImplementedError` | When locator is invalid.
 `AppiumServerAlreadyRunningError` | When Appium server is already running.
 `AppiumServerLogFileError` | When there is error while deleting previous server logs.
 `AppiumServerNotRunningError` | When Appium server is not running.
@@ -29,3 +30,4 @@ Exception | Events
 `DeviceElementNotDisplayedError` | When you are trying to interact with element which is not yet displayed.
 `DeviceElementNotFoundError` | When device element cannot be found.
 `DeviceTypeNotSupportedError` | When the mentioned device type is not supported by the framework.
+`NotEnoughBatteryChargeError` | When Battery charge is less than 20%.

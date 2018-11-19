@@ -15,6 +15,15 @@ login.onDevice ().hideKeyboard ();
 . . .
 ```
 
+### iOS
+
+```java
+. . .
+final LoginActivity login = new LoginActivity (this.iosDevice);
+login.onDevice ().hideKeyboard (HideKeyboardStrategy.PRESS_KEY, "return");
+. . .
+```
+
 ### List of keyboard events available
 * `hideKeyboard ()`
 * `pressBack ()`
