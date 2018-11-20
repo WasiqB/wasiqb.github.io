@@ -74,3 +74,5 @@ appium:
         url: /coteafs/appium/sample-action-class/
       - title: Test Class
         url: /coteafs/appium/sample-test-class/
+      - title: TestNG XML
+        url: /coteafs/appium/sample-testng/

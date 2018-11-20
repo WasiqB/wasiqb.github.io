@@ -6,64 +6,66 @@ title: "Config file"
 Here we can configure all the required servers and devices. For naming the file, refer the details about this mentioned [here](/coteafs/appium/config-basics/).
 
 ```yaml
-servers:	# should not be changed.
-  android:  	# Can be any text, it will be used to refer configs in tests.
-    ip: 127.0.0.1
-    port: 4723
-  iphone:	# Can be any text, it will be used to refer configs in tests.
-    ip: 127.0.0.1
-    port: 4724
-    external: true
-  ipad:		# Can be any text, it will be used to refer configs in tests.
-    ip: 127.0.0.1
-    port: 4725
-    external: true
+# Common server block.
+server: &default_server
+  appium_js_path: C:\Users\wasiqb\AppData\Roaming\npm\node_modules\appium\build\lib\main.js
+  node_path: C:\Program Files\nodejs\node.exe
+  arguments:
+    log_level: DEBUG
+    log_time_stamp: true
+    local_time_zone: true
+    session_override: true
+    android:
+      suppress_adb_kill_server: true
 
-devices:	# Should not change.
-  android:	# Can be any text, it will be used to refer configs in tests.
-    platform_type: ANDROID
-    device_type: REAL
-    device_name: Mi4
-    device_version: 6.0.1
-    app_type: HYBRID
+# Main servers list block with list of servers.
+servers:
+  android:
+    host: 0.0.0.0
+    port: 4723
+    <<: *default_server # refer common block here in this server.
+  browserstack:
+    protocol: HTTPS
+    host: hub-cloud.browserstack.com
+    cloud: true
+    user_name: ${env.user} # System property placeholder.
+    password: ${env.pass} # System property placeholder.
+
+# Common device block with common settings.
+device: &default_device
+  platform_type: ANDROID
+  app_type: HYBRID
+  device_type: REAL
+  session_timeout: 120000
+  clear_system_files: true
+  no_reset: false
+  full_reset: true
+  playback:
+    record:
+      enabled: true
+    delay_before_swipe: 200
+    delay_after_swipe: 100
+    delay_before_tap: 0
+    delay_after_tap: 0
+
+# Main device array block with multiple devices.
+devices:
+  test_local:
+    device_name: pixel2
+    device_version: 8.1
+    app_location: apps/android/VodQA.apk
     automation_name: APPIUM
-    app_location: app/android/your_app.apk
-    app_package: com.company.package
-    app_activity: com.company.activity.MainActivity
-    app_wait_activity: com.company.activity.SplashActivity
-    session_timeout: 6000
-    clear_system_files: true
-  iphone:	# Can be any text, it will be used to refer configs in tests.
-    platform_type: IOS
-    device_name: iPhone X
-    device_version: 11.0
-    udid: XXXX
-    bundle_id: com.company.app
-    app_type: HYBRID
-    app_location: app/iphone/your_app.ipa
-    automation_name: XCUI
-    app_name: [Your App Name]
-    team_id: XXXXXXXXXX
-    signing_id: iPhone Developer
-    bootstrap_path: /usr/local/lib/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent
-    agent_path: /usr/local/lib/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent/WebDriverAgent.xcodeproj
-    session_timeout: 6000
-  ipad:		# Can be any text, it will be used to refer configs in tests.
-    platform_type: IOS
-    device_name: iPad Mini 4
-    device_version: 10.3.1
-    udid: XXXX
-    bundle_id: com.company.app
-    app_type: NATIVE
-    app_location: app/ipad/your_app.ipa
-    automation_name: XCUI
-    app_name: [Your App Name]
-    team_id: XXXXXXXXXX
-    signing_id: iPhone Developer
-    bootstrap_path: /usr/local/lib/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent
-    agent_path: /usr/local/lib/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent/WebDriverAgent.xcodeproj
-    session_timeout: 6000
-    wda_connection_timeout: 6000
-    full_reset: true
-    clear_system_files: true
+    <<: *default_device # refer common device setting block here.
+    device_type: SIMULATOR
+    android:
+      avd: pixel2
+      avd_launch_timeout: 60000
+      avd_ready_timeout: 60000
+  test_browserstack:
+    device_name: Samsung Galaxy S8
+    device_version: 7.0
+    app_location: ${env.app} # System property placeholder.
+    cloud_app: true
+    automation_name: APPIUM
+    <<: *default_device
 ```
