@@ -16,7 +16,7 @@ The framework can be used directly by adding dependency in the `POM.xml` file as
 ```
 
 > NOTE:
-Sometimes it is observed that due to some conflicting dependencies for SnakeYaml and Google's Guava, you need to make sure you add exclusion in other library dependenceis (which is internally using an old version of the above mentioned library) which you may use in your pom along with this framework. This is how you do this:
+Sometimes it is observed that due to some conflicting dependencies for SnakeYaml and Google's Guava, you need to make sure you add exclusion in other library dependencies (which is internally using an old version of the above mentioned library) which you may use in your pom along with this framework. This is how you do this:
 
 ```xml
 <dependency>
@@ -36,7 +36,7 @@ Sometimes it is observed that due to some conflicting dependencies for SnakeYaml
 </dependency>
 ```
 
-If this won't solve the issues, than you need to remove old versions from your `.m2` repository from your local machine for both **SnakeYaml** and **Google's Guava**.
+If this won't solve the issue, than you need to remove old versions from your `.m2` repository from your local machine for both **SnakeYaml** and **Google's Guava**.
 
 ### B. Build path reference
 In order to use it from build path, you need to clone the framework project to your local machine by executing the below command:

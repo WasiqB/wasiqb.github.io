@@ -36,7 +36,7 @@ Key | Platform | Allowed Values | Description
 `app_package` | Android | | Application Package Name.
 `app_activity` | Android | | Loading activity name.
 `app_wait_activity` | Android | | Activity name to wait for to load.
-`app_wait_package` | Android | | Package bane to wait for to load.
+`app_wait_package` | Android | | Package name to wait for to load.
 `avd` | Android | AVD Name | Android Virtual Device Name
 `avd_launch_timeout` | Android | Int | AVD launch timeout in sec.
 `avd_ready_timeout` | Android | Int | AVD ready timeout in sec.
