@@ -1,9 +1,18 @@
 ---
 permalink: /coteafs/appium/error-handling/
 title: "Error Handling"
+toc: true
 ---
 
-Sometimes it is very difficult to identify what went wrong when we run tests using Appium or Selenium. To handle this, framework handles all the events and throws a meaningful error using [coteafs-error](https://github.com/WasiqB/coteafs-error) framework, which is easy to identify the cause of failure.
+## Error handling
+
+### Problem Statement
+
+Tests are not running as expected, it is difficult to find out the root cause, appium related errors are thrown which are very difficult to be identified.
+
+### Solution provided by this framework
+
+This framework handles all the events and throws a meaningful error using [coteafs-error](https://github.com/WasiqB/coteafs-error) framework, which is easy to identify the cause of failure.
 
 Following is the list of exception and their events of occurring:
 

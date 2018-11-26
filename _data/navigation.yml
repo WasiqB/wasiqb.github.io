@@ -2,14 +2,8 @@
 main:
   - title: "CoTeAFS Suite"
     url: /coteafs/
-  - title: "Tutorials"
-    url: /tutorials/
-  - title: "Services"
-    url: /services/
   - title: "Blogs"
     url: /blogs/
-  - title: "Contact Me"
-    url: /contact/
 
 appium:
   - title: Getting Started

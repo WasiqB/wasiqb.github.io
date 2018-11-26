@@ -16,14 +16,14 @@ Windows | Any | Android, Windows | Android SDK
 Linux | Any | Android | Android SDK
 
 ### Tools:
+
 Following tools need to be installed before using this framework:
 
 Tools | Version
 ------|---------
 [Java][jdk] | 1.8
-NodeJS  |  Latest
-Appium Server  |  Latest
-Appium Desktop  |  Latest
-Appium Doctor  |  Latest
+NodeJS  |  8.12
+Appium Server  |  1.9.1
+Appium Desktop  |  1.8.2
 
 [jdk]: http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html

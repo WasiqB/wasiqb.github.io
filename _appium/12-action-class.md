@@ -4,19 +4,20 @@ title: "Abstract Activity Action Class"
 toc: true
 ---
 
-### Background
+## Background
 
-Let's take an example of LoginActivity we saw in previous topic of [Abstract Activity Class][deviceActivity]. If say we have to write 100's of tests where Login activity is used for logging in different types of user's, it will be unnecessary code duplication of Login flow actions. In order to avoid such scenario's, we have provided a device specific abstract classes which extends `DeviceActivityActions` class.
+Let's take an example of LoginActivity provided in previous topic of [Abstract Activity Class][deviceActivity]. If say there are multiple tests to be written, where Login activity is used for logging in different types of user's, it will be unnecessary code duplication of Login flow actions. In order to avoid such scenario's, a device specific abstract class is available which extends `DeviceActivityActions` class, and simplifies the tedious task.
 
-Following are the list of available actions classes for each type of devices:
+Following are the list of available actions classes for each type of platforms:
+
 * `AndroidActivityActions`
 * `IOSActivityActions`
 
-Whenever we use above mentioned classes and extend it, we need to override `perform` method by adding the Activity specific flow actions. If we want to use some input values in our Activity flow, we can make use of `addInputValue` method to add input values in key-value format. Now to get the input values in the `perform` method which we will be implementing, we can call `value` method by passing corresponding key for the input field we want that value against.
+Whenever the above mentioned classes are extended, `perform` method needs to be overridden by adding the Activity specific flow actions. If in case, some input values are required to be used in Activity flow, than `addInputValue` method can be used to add input values in key-value format. Now to get the input values in the `perform` method, `value` method needs to be called by passing corresponding key for the input field for which value is required.
 
-### How to write an Activity Action class?
+## How to write an Activity Action class?
 
-I will demonstrate this by assuming Android as our platform and Login Activity.
+Lets take example of Login Activity a bit further and assume platform is `Android`
 
 ```java
 import com.github.wasiqb.coteafs.appium.android.AndroidActivityActions;
@@ -42,9 +43,8 @@ public class LoginActivityActions extends AndroidActivityActions {
 }
 ```
 
-### How to use Activity Actions in Tests?
+## How to use Activity Actions in Tests?
 
-Here I've illustrated the use in the Tests class.
 ```java
 . . .
 @Test (dataProvider = "loginDataProvider")
@@ -57,7 +57,7 @@ public void testLogin (final String user, final String password) {
 . . .
 ```
 
-### Other methods exposed by ActivityActions class are:
+## Other methods exposed by ActivityActions class are:
 
  Method Name | Description
 -------------|------------
