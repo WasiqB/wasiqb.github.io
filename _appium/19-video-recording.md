@@ -6,7 +6,7 @@ toc: true
 
 ## Video recording of the tests
 
-## How to Enable Recording
+### How to Enable Recording
 
 coteafs-appium supports the video recording of tests for Android as well as iOS.
 
@@ -22,7 +22,7 @@ devices:
   . . .
 ```
 
-## Video Record Settings
+### Video Record Settings
 
 coteafs-appium also supports the customization of video recording settings. Following are the parameters which can be changed as per the requirement:
 

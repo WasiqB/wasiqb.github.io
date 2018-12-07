@@ -4,8 +4,6 @@ title: "Battery Check"
 toc: false
 ---
 
-## Feature - Battery check
-
 ## Overview
 
 Basic idea for this feature is to terminate the tests when Battery level on real device is less than 20% and device is connected to machine via WiFi. 

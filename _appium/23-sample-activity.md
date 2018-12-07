@@ -5,7 +5,7 @@ title: "Activity Class"
 
 ## Sample code for Activity Class
 
-For each activity, an Activity class is required to be created by extending `AndroidActivity` (in case of `Android` platform) OR `IOSActivity` ( in case of iOS platform) OR `WindowsActivity`(in case of `windows` platform).
+For each activity, an Activity class is required to be created by extending `AndroidActivity` (in case of `Android` platform) OR `IOSActivity` ( in case of iOS platform).
 
 ```java
 import com.github.wasiqb.coteafs.appium.android.AndroidDevice;
