@@ -4,7 +4,15 @@ title: "Alert Handling"
 toc: true
 ---
 
-This is very commonly encountered when we test Mobile or Tablet devices of Android and iOS platform. It is very elegantly handled in the framework. Following is the code snippet to use it:
+## Alert Handling
+
+### Problem Statement
+
+Alert handling in mobile automation is a very tedious task, whether it be Mobile, Tablet, Android or iOS. Many users waste good amount of time finding the solutions for it.
+
+### Solution provided by this Framework
+
+This is very elegantly handled in the framework. Following is the code snippet of how to use it:
 
 ### Android Permission Alert
 

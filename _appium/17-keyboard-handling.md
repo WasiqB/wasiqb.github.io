@@ -4,7 +4,13 @@ title: "Keyboard Handling"
 toc: true
 ---
 
-This is also another feature where you can just hide the keyboard when you are done with typing. Following is the code snippet for the same.
+## Keyboard Handling
+
+This is an added feature in the framework where you can `hide` the keyboard when you are done with typing. 
+Also, provisions are also made to press `enter key`/ press `back key`. 
+This is feature is introduced for Android as well as iOS. 
+
+Following is the code snippet of how to do it:
 
 ### Android
 

@@ -3,7 +3,11 @@ permalink: /coteafs/appium/sample-test-class/
 title: "Test Class"
 ---
 
-Now we can move to writing our first Test class by extending the base test class created earlier. You can write the Test as you may wish. This example is for demonstration purpose only.
+## Sample coe for Tests
+
+Once the coding for Setup, activity and action class is completed, writing tests can be started with by extending the base test class created earlier in Setup.
+
+Check the following demo code of tests:
 
 ```java
 import org.testng.annotations.Test;
