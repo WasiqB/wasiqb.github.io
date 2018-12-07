@@ -3,7 +3,10 @@ permalink: /coteafs/appium/sample-setup-class/
 title: "Setup Class"
 ---
 
-After our config file is ready, we can move on and write our Setup Base Class as shown below.
+## Sample code for Setup Class
+
+Once the config file is ready, Setup Base Class can be created as shown below.
+
 ```java
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterTest;

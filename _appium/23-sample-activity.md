@@ -3,7 +3,9 @@ permalink: /coteafs/appium/sample-activity-class/
 title: "Activity Class"
 ---
 
-For each activity, we need to create an Activity class by extending `AndroidActivity` class if working on Android, or `IOSActivity` if working on IOS device, or `WindowsActivity` if working on Windows device.
+## Sample code for Activity Class
+
+For each activity, an Activity class is required to be created by extending `AndroidActivity` (in case of `Android` platform) OR `IOSActivity` ( in case of iOS platform) OR `WindowsActivity`(in case of `windows` platform).
 
 ```java
 import com.github.wasiqb.coteafs.appium.android.AndroidDevice;

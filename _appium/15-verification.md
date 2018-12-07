@@ -4,7 +4,15 @@ title: "Verification of Elements"
 toc: true
 ---
 
-It is possible to do assertion on any device element without writing any assertion ourself. This is handled in the framework where you can do assertion on any Element inline. Following is an example on how to do it.
+## Problem Statement
+
+User has to write a lot more code to verify the expected with actual result and it requires good amount of effort and time to be invested in it.
+
+## Solution by this Framework
+
+Inline Assertions are provided by this framework. 
+
+Following is an example on how to do it.
 
 ```java
 . . .
@@ -14,7 +22,6 @@ main.onElement ("TypedAmt")
 	.textShouldBeEqualTo ("$0.1");
 . . .
 ```
-**Neat and clean, isn't it??**
 
 Following is the list of verification methods available:
 

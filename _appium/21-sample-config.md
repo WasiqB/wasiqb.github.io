@@ -3,7 +3,11 @@ permalink: /coteafs/appium/sample-config/
 title: "Config file"
 ---
 
-Here we can configure all the required servers and devices. For naming the file, refer the details about this mentioned [here](/coteafs/appium/config-basics/).
+## Sample Config File 
+
+Config file is main resource of this framework where all the necesary config setup for servers and devices 
+are done. 
+For naming convention of the file, refer the details mentioned [here](/coteafs/appium/config-basics/).
 
 ```yaml
 # Common server block.

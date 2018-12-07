@@ -3,7 +3,9 @@ permalink: /coteafs/appium/sample-action-class/
 title: "Action Class"
 ---
 
-In order to avoid writing same action flow of any activity multiple times in our Tests, we can write the Action flow in a separate Action Class as shown below:
+## Sample code for Action Class
+
+For avoiding duplication of code and writing the same action flow multiple times, Action flow can be written in a separate Action Class as shown below:
 
 ```java
 import com.github.wasiqb.coteafs.appium.android.AndroidActivityActions;

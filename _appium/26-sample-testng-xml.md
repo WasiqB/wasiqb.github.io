@@ -3,7 +3,9 @@ permalink: /coteafs/appium/sample-testng/
 title: "Sample TestNG XML"
 ---
 
-This is sample TestNG XML file just for demonstration.
+## Sample TestNG.xml
+
+This is sample TestNG XML file for demonstration purpose.
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
