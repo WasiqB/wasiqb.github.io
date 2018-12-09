@@ -4,6 +4,8 @@ title: "Supported Device Element Actions"
 toc: true
 ---
 
+## Overview
+
 There are plenty of device element specific actions which are supported in the framework and to trigger that action on device, you need to call the `onElement` method on the Current Activity and pass the element name on which you need to perform action. Same is illustrated below:
 
 ```java
@@ -11,7 +13,8 @@ There are plenty of device element specific actions which are supported in the f
     login.onElement ("userName").enterText ("User1");
     . . .
 ```
-### Actions common for all the device elements
+
+## Actions common for all the device elements
 
 Following is the list of actions common on all the device elements:
 * `appendText`: This method will append text to the end of the string in the text box without clearing any existing text.
@@ -37,7 +40,7 @@ Following is the list of actions common on all the device elements:
 > Note:
 > Zoom and Pinch will only work when Automation Type is Espresso.
 
-### Known issue and workarounds
+## Known issue and workarounds
 * **Swipe Down:**
   * **Issue:** When swiping on element with finger on top border doesn't swipes from top to down but instead swipes down to top. Same is also reported to Appium team [#827](https://github.com/appium/java-client/issues/827).
   * **Workaround:** In coteafs-appium, it has handled the workaround for the issue by starting 5 pixels away from border.

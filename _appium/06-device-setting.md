@@ -4,6 +4,8 @@ title: "Device Settings"
 toc: true
 ---
 
+## General Device Settings
+
 Following is the device config list:
 
 Key | Platform | Allowed Values | Description
@@ -40,6 +42,7 @@ Key | Platform | Allowed Values | Description
 `avd` | Android | AVD Name | Android Virtual Device Name
 `avd_launch_timeout` | Android | Int | AVD launch timeout in sec.
 `avd_ready_timeout` | Android | Int | AVD ready timeout in sec.
+`avd_args` | Android | String | AVD Args used while starting it.
 `adb_port` | Android | Int | ADB port.
 `apk_install_timeout` | Android | Int | Delay in secs.
 `app_wait_timeout` | Android | Int | Delay in secs.

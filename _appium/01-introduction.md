@@ -4,11 +4,11 @@ title: "Introduction"
 toc: true
 ---
 
-### What is coteafs-appium?
+## What is coteafs-appium?
 
 **coteafs-appium** is a tester friendly Mobile Automation framework built on top of Appium. It supports writing automation tests for Mobile's web, native and hybrid apps for Android and iOS platforms for both mobiles and tablets (Real / Simulators). It simplifies writing automated tests by utilizing Page Object pattern while writing the test scripts. It also modularizes the activity actions from tests thus making tests more clean, readable and maintainable.
 
-### Why it was created?
+## Why it was created?
 
 As using Appium directly is a tedious task, and also considering the following difficulties faced,
 it was decided to create this framework:
@@ -19,13 +19,14 @@ it was decided to create this framework:
 * Handle difficult swipe gestures gracefully and easily.
 * Write clean and maintainable test scripts.
 
-### How it is useful?
+## How it is useful?
+
 Following are the key features of the framework:
 
 * It seamlessly supports Android and iOS platform mobiles and tablets.
 * It can start / stop Appium server internally or attach to already running external Appium server.
 * It allows configurable customization of delays between actions, screenshots, capabilities of the apps, etc.
-* It has inbuit methods which allows using gestures like swipe, zoom and pinch with ease. 
+* It has inbuit methods which allows using gestures like swipe, zoom and pinch with ease.
 * It checks battery status and will terminate test execution when battery level is less than 20%.
 * It allows video recording of tests on Android and iOS.
 * It allows executing tests on Cloud based platforms like BrowserStack, SauceLabs, etc.

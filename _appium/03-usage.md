@@ -1,10 +1,15 @@
 ---
 permalink: /coteafs/appium/usage/
-title: "Pre-Requisite"
+title: "Usage"
 toc: true
 ---
 
+## Usage options
+
+Any of the following options can be used to start working with the framework.
+
 ### A. Maven Dependency
+
 The framework can be used directly by adding dependency in the `POM.xml` file as shown below:
 
 ```xml
@@ -39,6 +44,7 @@ Sometimes it is observed that due to some conflicting dependencies for SnakeYaml
 If this won't solve the issue, than you need to remove old versions from your `.m2` repository from your local machine for both **SnakeYaml** and **Google's Guava**.
 
 ### B. Build path reference
+
 In order to use it from build path, you need to clone the framework project to your local machine by executing the below command:
 
 ```terminal
@@ -52,3 +58,9 @@ $ mvn clean install -DskipTests=true
 ```
 
 After build is completed successfully, refer the JAR's created in `target` folder in build path of your project.
+
+### C. Download the JAR's from the Release Tab
+
+You can download the latest release JAR's from [GitHub][release] and add the reference in your project classpath.
+
+[release]: https://github.com/WasiqB/coteafs-appium/releases/latest

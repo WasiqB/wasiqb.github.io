@@ -6,7 +6,8 @@ toc: true
 
 When using **coteafs-appium**, make sure that following tech-stack is available at your end:
 
-### Environments:
+## Environments:
+
 Any of the following:
 
 OS Name | Version | Platform | Tools
@@ -15,7 +16,7 @@ Mac OSX | 10+ | iOS, Android, Mac | XCode 9+, Android SDK
 Windows | Any | Android, Windows | Android SDK
 Linux | Any | Android | Android SDK
 
-### Tools:
+## Tools:
 
 Following tools need to be installed before using this framework:
 
