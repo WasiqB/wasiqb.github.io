@@ -5,22 +5,29 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # `jekyll serve`. If you change this file, please restart the server process.
 
-minimal_mistakes_skin    : "air" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+# Theme Settings
+#
+# Review documentation to determine if you should use `theme` or `remote_theme`
+# https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
+
+# theme                  : "minimal-mistakes-jekyll"
+# remote_theme           : "mmistakes/minimal-mistakes"
+minimal_mistakes_skin    : "neon" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
-locale                   : "en"
-title                    : "w -> { wasiqb };"
+locale                   : "en-US"
+title                    : &name "Wasiq Bhamla"
 title_separator          : "-"
-name                     : &name "Wasiq Bhamla"
-description              : &description "Senior QA Engineer // Open Source Contributor // Blogger // Trainer"
+name                     : *name
+description              : &description "Lead QA Automation Engineer | Open source contributor."
 url                      : "https://wasiqb.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "WasiqB/wasiqb.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
-teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
+teaser                   : /assets/images/home_banner.jpg # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 200
 comments:
-  provider               : "disqus" # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "staticman_v2" "custom"
+  provider               : "disqus" # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "staticman_v2", "utterances", "custom"
   disqus:
     shortname            : "https-wasiqb-github-io" # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   discourse:
@@ -28,12 +35,14 @@ comments:
   facebook:
     # https://developers.facebook.com/docs/plugins/comments
     appid                :
-    num_posts            : 10 # 5 (default)
-    colorscheme          : "dark" # "light" (default), "dark"
+    num_posts            : # 5 (default)
+    colorscheme          : # "light" (default), "dark"
+  utterances:
+    theme                : # "github-light" (default), "github-dark"
 staticman:
   allowedFields          : # ['name', 'email', 'url', 'message']
   branch                 : # "master"
-  commitMessage          : # "New comment."
+  commitMessage          : # "New comment by {fields.name}"
   filename               : # comment-{@timestamp}
   format                 : # "yml"
   moderation             : # true
@@ -46,15 +55,26 @@ staticman:
       type               : # "date"
       options:
         format           : # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
+  endpoint               : # URL of your own deployment with trailing slash, will fallback to the public instance
 reCaptcha:
   siteKey                : 6Leu6z8UAAAAAPVQTbLQ8ZuhLe4Ui7WciKu0jNVI
   secret                 : 6Leu6z8UAAAAAGr40US3aarh3Cd8iXjgvwEWCf5v
 atom_feed:
-  path                   : # blank (default) uses feed.xml
+  path                   : "http://feeds.feedburner.com/WasiqBhamla"
 search                   : true # true, false (default)
+search_full_content      : true # true, false (default)
+search_provider          : # lunr (default), algolia, google
+algolia:
+  application_id         : # YOUR_APPLICATION_ID
+  index_name             : # YOUR_INDEX_NAME
+  search_only_api_key    : # YOUR_SEARCH_ONLY_API_KEY
+  powered_by             : # true (default), false
+google:
+  search_engine_id       : # YOUR_SEARCH_ENGINE_ID
+  instant_search         : # false (default), true
 
 # SEO Related
-google_site_verification :
+google_site_verification : i3x-x1g3IFyNUzu6z4EMXpwviY9o7FrCYkBXDNq90wE
 bing_site_verification   :
 yandex_site_verification :
 naver_site_verification  :
@@ -73,59 +93,67 @@ social:
   type                   : # Person or Organization (defaults to Person)
   name                   : # If the user or organization name differs from the site's name
   links: # An array of links to social media profiles
-    - "https://www.linkedin.com/in/wasiqbhamla"
-    - "https://twitter.com/WasiqBhamla"
-    - "https://www.facebook.com/wasiqb"
-    - "https://github.com/WasiqB"
-    - "https://plus.google.com/u/0/+WasiqBhamla"
-    - "https://stackoverflow.com/users/5320558/wasiq-bhamla"
+    - &linkedin "https://www.linkedin.com/in/wasiqbhamla"
+    - &twitter "https://twitter.com/WasiqBhamla"
+    - &facebook "https://www.facebook.com/wasiqb"
+    - &github "https://github.com/WasiqB"
+    - &stackoverflow "https://stackoverflow.com/users/5320558/wasiq-bhamla"
 
 # Analytics
 analytics:
   provider               : "google-universal" # false (default), "google", "google-universal", "custom"
   google:
     tracking_id          : "UA-111539609-1"
-
+    anonymize_ip         : true # true, false (default)
 
 # Site Author
 author:
   name             : *name
   avatar           : "/assets/images/bio-photo.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : *description
-  location         : Mumbai, India
-  email            : "wasbhamla2005@gmail.com"
-  uri              : "https://wasiqb.github.io"
-  home             : # null (default), "absolute or relative url to link to author home"
-  bitbucket        : "WasiqB"
-  codepen          :
-  dribbble         :
-  flickr           :
-  facebook         : "wasiqb"
-  foursquare       :
-  github           : "WasiqB"
-  gitlab           :
-  google_plus      : "WasiqBhamla"
-  keybase          :
-  instagram        :
-  lastfm           :
-  linkedin         : "wasiqbhamla" # "john-doe-12345678" (the last part of your profile url, e.g. https://www.linkedin.com/in/john-doe-12345678)
-  pinterest        :
-  soundcloud       :
-  stackoverflow    : "5320558/wasiq-bhamla" # "123456/username" (the last part of your profile url, e.g. https://stackoverflow.com/users/123456/username)
-  steam            : # "steamId" (the last part of your profile url, e.g. https://steamcommunity.com/id/steamId/)
-  tumblr           :
-  twitter          : "WasiqBhamla"
-  vine             :
-  weibo            :
-  xing             :
-  youtube          : # "https://youtube.com/c/MichaelRoseDesign"
+  location         : "Mumbai, India"
+  email            : &email "wasbhamla2005@gmail.com"
+  links:
+    - label: "LinkedIn"
+      icon: &img_in "fab fa-linkedin"
+      url: *linkedin
+    - label: "GitHub"
+      icon: &img_gh "fab fa-fw fa-github"
+      url: *github
+    - label: "StackOverflow"
+      icon: &img_so "fab fa-stack-overflow"
+      url: *stackoverflow
+    - label: "Facebook"
+      icon: &img_fb "fab fa-fw fa-facebook-square"
+      url: *facebook
+    - label: "Twitter"
+      icon: &img_tw "fab fa-fw fa-twitter-square"
+      url: *twitter
 
+# Site Footer
+footer:
+  links:
+    - label: "LinkedIn"
+      icon: *img_in
+      url: *linkedin
+    - label: "GitHub"
+      icon: *img_gh
+      url: *github
+    - label: "StackOverflow"
+      icon: *img_so
+      url: *stackoverflow
+    - label: "Facebook"
+      icon: *img_fb
+      url: *facebook
+    - label: "Twitter"
+      icon: *img_tw
+      url: *twitter
 
 # Reading Files
 include:
   - .htaccess
   - _pages
-  - _coteafs
+  - _projects
   - _appium
 exclude:
   - "*.sublime-project"
@@ -159,14 +187,12 @@ keep_files:
 encoding: "utf-8"
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
-
 # Conversion
 markdown: kramdown
 highlighter: rouge
 lsi: false
 excerpt_separator: "\n\n"
 incremental: false
-
 
 # Markdown Processing
 kramdown:
@@ -179,28 +205,25 @@ kramdown:
   smart_quotes: lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
 
-
 # Sass/SCSS
 sass:
   sass_dir: _sass
   style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
 
-
 # Outputting
 permalink: /:categories/:title/
-# paginate: 10 # amount of posts to show
+# paginate: 5 # amount of posts to show
 # paginate_path: /blogs/page:num/
 timezone: Asia/Kolkata # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
-
 # Plugins (previously gems:)
 plugins:
-  - jekyll-archives
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-feed
   - jemoji
+  - jekyll-include-cache
 
 # mimic GitHub Pages with --safe
 whitelist:
@@ -209,7 +232,7 @@ whitelist:
   - jekyll-gist
   - jekyll-feed
   - jemoji
-
+  - jekyll-include-cache
 
 # Archives
 #  Type
@@ -228,19 +251,19 @@ tag_archive:
   type: liquid
   path: /tags/
 # https://github.com/jekyll/jekyll-archives
-jekyll-archives:
-  enabled:
-    - categories
-    - tags
-  layouts:
-    category: archive-taxonomy
-    tag: archive-taxonomy
-  permalinks:
-    category: /categories/:name/
-    tag: /tags/:name/
-    year: '/:year/'
-    month: '/:year/:month/'
-    day: '/:year/:month/:day/'
+# jekyll-archives:
+#   enabled:
+#     - categories
+#     - tags
+#   layouts:
+#     category: archive-taxonomy
+#     tag: archive-taxonomy
+#   permalinks:
+#     category: /categories/:name/
+#     tag: /tags/:name/
+#     year: '/:year/'
+#     month: '/:year/:month/'
+#     day: '/:year/:month/:day/'
 
 # HTML Compression
 # - http://jch.penibelst.de/
@@ -251,6 +274,9 @@ compress_html:
 
 collections:
   appium:
+    output: true
+    permalink: /:collection/:path/
+  projects:
     output: true
     permalink: /:collection/:path/
 
@@ -274,6 +300,7 @@ defaults:
     values:
       layout: single
       author_profile: true
+  # Appium
   - scope:
       path: ""
       type: appium
@@ -283,5 +310,14 @@ defaults:
       author_profile: false
       share: false
       comments: false
+      toc: true
       sidebar:
         nav: "appium"
+  # _projects
+  - scope:
+      path: ""
+      type: projects
+    values:
+      layout: splash
+      author_profile: true
+      classes: wide

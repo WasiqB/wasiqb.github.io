@@ -1,5 +1,5 @@
 ---
-permalink: /coteafs/appium/error-handling/
+permalink: /projects/appium/error-handling/
 title: "Error Handling"
 toc: true
 ---

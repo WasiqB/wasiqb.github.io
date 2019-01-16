@@ -1,5 +1,5 @@
 ---
-permalink: /coteafs/appium/orp/
+permalink: /projects/appium/orp/
 title: "ORP - Object Repository Pattern"
 toc: true
 ---

@@ -1,5 +1,5 @@
 ---
-permalink: /coteafs/appium/action-class/
+permalink: /projects/appium/action-class/
 title: "Abstract Activity Action Class"
 toc: true
 ---
@@ -65,4 +65,4 @@ public void testLogin (final String user, final String password) {
 `addInputValue` | Add input value by specifying the element name as key for corresponding Element.
 `value` | Will return the input value specified in our Tests
 
-[deviceActivity]: /coteafs/appium/activity-class/
+[deviceActivity]: /projects/appium/activity-class/

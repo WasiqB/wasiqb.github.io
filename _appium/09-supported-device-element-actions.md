@@ -1,5 +1,5 @@
 ---
-permalink: /coteafs/appium/supported-device-element-actions/
+permalink: /projects/appium/supported-device-element-actions/
 title: "Supported Device Element Actions"
 toc: true
 ---

@@ -1,5 +1,5 @@
 ---
-permalink: /coteafs/appium/logging/
+permalink: /projects/appium/logging/
 title: "Logging"
 toc: true
 ---
@@ -133,7 +133,7 @@ appenders:
       - ref: "test-log-appender"
 
 loggers:
-  level: ALL  
+  level: ALL
   appender_ref:
   - ref: "console-log"
     attributes:

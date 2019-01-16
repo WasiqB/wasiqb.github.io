@@ -1,5 +1,5 @@
 ---
-permalink: /coteafs/appium/activity-class/
+permalink: /projects/appium/activity-class/
 title: "Abstract Activity Class"
 toc: true
 ---
@@ -53,4 +53,4 @@ public class LoginActivity extends AndroidActivity {
 
 This is how `DeviceElement` object is created using abstract method `prepare`, where object will be root object which will have user interactive elements as it's child. To know more about DeviceElement, [see here][deviceElement].
 
-[deviceElement]: /coteafs/appium/orp/
+[deviceElement]: /projects/appium/orp/

@@ -1,12 +1,12 @@
 ---
-permalink: /coteafs/appium/sample-config/
+permalink: /projects/appium/sample-config/
 title: "Config file"
 ---
 
-## Sample Config File 
+## Sample Config File
 
-Config file is main resource of this framework where all the necesary config setup for servers and devices 
-are done. 
+Config file is main resource of this framework where all the necesary config setup for servers and devices
+are done.
 For naming convention of the file, refer the details mentioned [here](/coteafs/appium/config-basics/).
 
 ```yaml

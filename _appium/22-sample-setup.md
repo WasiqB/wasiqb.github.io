@@ -1,5 +1,5 @@
 ---
-permalink: /coteafs/appium/sample-setup-class/
+permalink: /projects/appium/sample-setup-class/
 title: "Setup Class"
 ---
 

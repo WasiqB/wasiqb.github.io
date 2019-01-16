@@ -1,5 +1,5 @@
 ---
-permalink: /coteafs/appium/sample-test-class/
+permalink: /projects/appium/sample-test-class/
 title: "Test Class"
 ---
 

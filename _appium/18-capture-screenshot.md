@@ -1,5 +1,5 @@
 ---
-permalink: /coteafs/appium/screenshot/
+permalink: /projects/appium/screenshot/
 title: "Capture Screenshots"
 toc: true
 ---
@@ -24,5 +24,5 @@ login.onDevice ().captureScreenshot ();
 ### B. capturing screenshot automatically when an error is occurred.
 
 coteafs-appium also takes care of capturing screenshot automatically. It can be enabled from following
-path in config file : 
+path in config file :
 `config file >> device settings >> playback block` by setting `screensho_on_error` property to `true`.

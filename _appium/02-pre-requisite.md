@@ -1,7 +1,6 @@
 ---
-permalink: /coteafs/appium/pre-requisite/
+permalink: /projects/appium/pre-requisite/
 title: "Pre-Requisite"
-toc: true
 ---
 
 When using **coteafs-appium**, make sure that following tech-stack is available at your end:

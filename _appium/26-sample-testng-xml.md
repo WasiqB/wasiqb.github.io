@@ -1,5 +1,5 @@
 ---
-permalink: /coteafs/appium/sample-testng/
+permalink: /projects/appium/sample-testng/
 title: "Sample TestNG XML"
 ---
 

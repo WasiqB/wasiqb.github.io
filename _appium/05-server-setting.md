@@ -1,5 +1,5 @@
 ---
-permalink: /coteafs/appium/server-setting/
+permalink: /projects/appium/server-setting/
 title: "Server Settings"
 toc: true
 ---

@@ -1,5 +1,5 @@
 ---
-permalink: /coteafs/appium/sample-activity-class/
+permalink: /projects/appium/sample-activity-class/
 title: "Activity Class"
 ---
 

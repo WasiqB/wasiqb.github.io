@@ -1,7 +1,9 @@
 # main links
 main:
-  - title: "CoTeAFS Suite"
-    url: /coteafs/
+  - title: "Projects"
+    url: /projects/
+  - title: "Services"
+    url: /services/
   - title: "Blogs"
     url: /blogs/
 
@@ -9,64 +11,64 @@ appium:
   - title: Getting Started
     children:
       - title: Introduction
-        url: /coteafs/appium/intro/
+        url: /projects/appium/intro/
       - title: Pre-requisite
-        url: /coteafs/appium/pre-requisite/
+        url: /projects/appium/pre-requisite/
       - title: Usage
-        url: /coteafs/appium/usage/
+        url: /projects/appium/usage/
   - title: Configuration
     children:
       - title: Basics
-        url: /coteafs/appium/config-basics/
+        url: /projects/appium/config-basics/
       - title: Server Setting
-        url: /coteafs/appium/server-setting/
+        url: /projects/appium/server-setting/
       - title: Device Setting
-        url: /coteafs/appium/device-setting/
+        url: /projects/appium/device-setting/
   - title: Core
     children:
       - title: ORP - Object Repository Pattern
-        url: /coteafs/appium/orp/
+        url: /projects/appium/orp/
       - title: Supported Devices
-        url: /coteafs/appium/supported-devices/
+        url: /projects/appium/supported-devices/
       - title: Supported Device Actions
-        url: /coteafs/appium/supported-device-actions/
+        url: /projects/appium/supported-device-actions/
       - title: Supported Device Element Actions
-        url: /coteafs/appium/supported-device-element-actions/
+        url: /projects/appium/supported-device-element-actions/
   - title: Modularization
     children:
       - title: Abstract Activity Class
-        url: /coteafs/appium/activity-class/
+        url: /projects/appium/activity-class/
       - title: Abstract Action Class
-        url: /coteafs/appium/action-class/
+        url: /projects/appium/action-class/
   - title: Extras
     children:
       - title: Error Handling
-        url: /coteafs/appium/error-handling/
+        url: /projects/appium/error-handling/
       - title: Logging
-        url: /coteafs/appium/logging/
+        url: /projects/appium/logging/
       - title: Verification
-        url: /coteafs/appium/verification/
+        url: /projects/appium/verification/
       - title: Alert Handling
-        url: /coteafs/appium/alerts/
+        url: /projects/appium/alerts/
       - title: Keyboard Handling
-        url: /coteafs/appium/keyboard/
+        url: /projects/appium/keyboard/
       - title: Capture Screenshots
-        url: /coteafs/appium/screenshot/
+        url: /projects/appium/screenshot/
       - title: Video Recording
-        url: /coteafs/appium/video/
+        url: /projects/appium/video/
       - title: Battery Check
-        url: /coteafs/appium/battery/
+        url: /projects/appium/battery/
   - title: Example
     children:
       - title: Config file
-        url: /coteafs/appium/sample-config/
+        url: /projects/appium/sample-config/
       - title: Setup Class
-        url: /coteafs/appium/sample-setup-class/
+        url: /projects/appium/sample-setup-class/
       - title: Activity Class
-        url: /coteafs/appium/sample-activity-class/
+        url: /projects/appium/sample-activity-class/
       - title: Action Class
-        url: /coteafs/appium/sample-action-class/
+        url: /projects/appium/sample-action-class/
       - title: Test Class
-        url: /coteafs/appium/sample-test-class/
+        url: /projects/appium/sample-test-class/
       - title: TestNG XML
-        url: /coteafs/appium/sample-testng/
+        url: /projects/appium/sample-testng/

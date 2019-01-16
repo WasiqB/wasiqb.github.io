@@ -1,5 +1,5 @@
 ---
-permalink: /coteafs/appium/sample-action-class/
+permalink: /projects/appium/sample-action-class/
 title: "Action Class"
 ---
 

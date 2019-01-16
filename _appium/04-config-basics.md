@@ -1,5 +1,5 @@
 ---
-permalink: /coteafs/appium/config-basics/
+permalink: /projects/appium/config-basics/
 title: "Configuration Basics"
 toc: false
 ---
@@ -17,5 +17,5 @@ Config file is the heart of this framework. It is supported by [coteafs-configs]
 * All the keys in the config file should be as defined in the section [Server Setting][server] and [Device Setting][device].
 
 [config]: https://github.com/WasiqB/coteafs-config
-[server]: /coteafs/appium/server-setting/
-[device]: /coteafs/appium/device-setting/
+[server]: /projects/appium/server-setting/
+[device]: /projects/appium/device-setting/

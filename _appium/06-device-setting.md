@@ -1,5 +1,5 @@
 ---
-permalink: /coteafs/appium/device-setting/
+permalink: /projects/appium/device-setting/
 title: "Device Settings"
 toc: true
 ---

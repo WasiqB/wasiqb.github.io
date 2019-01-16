@@ -1,7 +1,6 @@
 ---
-permalink: /coteafs/appium/intro/
+permalink: /projects/appium/intro/
 title: "Introduction"
-toc: true
 ---
 
 ## What is coteafs-appium?

@@ -1,5 +1,5 @@
 ---
-permalink: /coteafs/appium/verification/
+permalink: /projects/appium/verification/
 title: "Verification of Elements"
 toc: true
 ---
@@ -10,7 +10,7 @@ User has to write a lot more code to verify the expected with actual result and 
 
 ## Solution by this Framework
 
-Inline Assertions are provided by this framework. 
+Inline Assertions are provided by this framework.
 
 Following is an example on how to do it.
 

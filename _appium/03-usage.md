@@ -1,5 +1,5 @@
 ---
-permalink: /coteafs/appium/usage/
+permalink: /projects/appium/usage/
 title: "Usage"
 toc: true
 ---

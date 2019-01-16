@@ -1,5 +1,5 @@
 ---
-permalink: /coteafs/appium/supported-devices/
+permalink: /projects/appium/supported-devices/
 title: "Supported Devices"
 ---
 

@@ -1,5 +1,5 @@
 ---
-permalink: /coteafs/appium/alerts/
+permalink: /projects/appium/alerts/
 title: "Alert Handling"
 toc: true
 ---

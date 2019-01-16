@@ -1,5 +1,5 @@
 ---
-permalink: /coteafs/appium/video/
+permalink: /projects/appium/video/
 title: "Video Recording"
 toc: true
 ---
@@ -31,5 +31,5 @@ coteafs-appium also supports the customization of video recording settings. Foll
 - `size`: The video size of the generated media file. The format is `WIDTHxHEIGHT`.
 
 ### iOS
-- `quality`: The video encoding quality (LOW, MEDIUM, HIGH, PHOTO - defaults to medium). This option 
+- `quality`: The video encoding quality (LOW, MEDIUM, HIGH, PHOTO - defaults to medium). This option
 currently works for real devices Only.

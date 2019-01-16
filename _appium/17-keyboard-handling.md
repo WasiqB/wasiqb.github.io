@@ -1,14 +1,14 @@
 ---
-permalink: /coteafs/appium/keyboard/
+permalink: /projects/appium/keyboard/
 title: "Keyboard Handling"
 toc: true
 ---
 
 ## Keyboard Handling
 
-This is an added feature in the framework where you can `hide` the keyboard when you are done with typing. 
-Also, provisions are also made to press `enter key`/ press `back key`. 
-This is feature is introduced for Android as well as iOS. 
+This is an added feature in the framework where you can `hide` the keyboard when you are done with typing.
+Also, provisions are also made to press `enter key`/ press `back key`.
+This is feature is introduced for Android as well as iOS.
 
 Following is the code snippet of how to do it:
 
