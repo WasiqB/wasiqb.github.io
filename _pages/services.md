@@ -6,7 +6,6 @@ header:
   overlay_color: "#5e616c"
   overlay_filter: "0.5"
   overlay_image: /assets/images/services/service-bg.jpg
-  caption: Photo by Helloquence on Unsplash
 excerpt: If you feel I can be useful to get your job done then select the service where you feel I can fit in.
 feature_row:
   - title: "Job opportunity"
