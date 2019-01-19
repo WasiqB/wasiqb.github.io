@@ -98,6 +98,7 @@ social:
     - &facebook "https://www.facebook.com/wasiqb"
     - &github "https://github.com/WasiqB"
     - &stackoverflow "https://stackoverflow.com/users/5320558/wasiq-bhamla"
+    - "https://plus.google.com/u/0/+WasiqBhamla"
 
 # Analytics
 analytics:
@@ -148,6 +149,9 @@ footer:
     - label: "Twitter"
       icon: *img_tw
       url: *twitter
+    - label: "Sitemap"
+      icon: "fas fa-sitemap"
+      url: /sitemap.xml
 
 # Reading Files
 include:

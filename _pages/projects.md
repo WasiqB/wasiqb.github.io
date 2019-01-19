@@ -9,5 +9,5 @@ header:
   overlay_color: "#000"
   overlay_filter: "0.5"
   overlay_image: /assets/images/projects/overlay.jpg
-excerpt: I am working on some open source projects which are hosted on GitHub. These projects are listed below.
+excerpt: Checkout my open source projects hosted on GitHub listed below.
 ---
