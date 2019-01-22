@@ -10,6 +10,7 @@ categories:
 tags:
   - Appium
   - Appium iOS
+date: 2017-04-24
 last_modified_at: 2017-04-24T15:12:19+05:30
 device_list:
   - url: /assets/images/posts/xcode-device-manager.png
