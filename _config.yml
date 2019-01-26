@@ -291,6 +291,7 @@ defaults:
       path: ""
       type: posts
     values:
+      permalink: /blogs/:title
       layout: single
       author_profile: true
       read_time: true
