@@ -5,20 +5,24 @@ search: exclude
 
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-    {% for page in site.pages %}
-    <url>
-        <loc>{{page.url}}</loc>
-        <lastmod>{{site.time | date: '%Y-%m-%d' }}</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.5</priority>
-    </url>
-    {% endfor %}
-    {% for post in site.posts %}
-    <url>
-        <loc>{{post.url}}</loc>
-        <lastmod>{{site.time | date: '%Y-%m-%d' }}</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.5</priority>
-    </url>
-    {% endfor %}
+  {% for post in site.posts %}
+  <url>
+    <loc>{{site.url}}{{post.url}}</loc>
+    <lastmod>{{site.time | date: '%Y-%m-%d' }}</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  {% endfor %}
+  {% for page in site.pages %}
+  {% if page.layout != nil %}
+  {% if page.layout != 'feed' %}
+  <url>
+      <loc>{{site.url}}{{page.url}}</loc>
+      <lastmod>{{site.time | date: '%Y-%m-%d' }}</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.5</priority>
+  </url>
+  {% endif %}
+  {% endif %}
+  {% endfor %}
 </urlset>
