@@ -3,7 +3,7 @@ title: "Beginners guide for Appium Automation for iOS apps"
 header:
   overlay_color: "#5e616c"
   overlay_filter: "0.5"
-  overlay_image: /assets/images/posts/appium-ios.jpeg
+  overlay_image: /assets/images/posts/2017-04-24-appium-automation-ios/appium-ios.jpeg
 excerpt: I just completed setting up my Mac for Appium and wanted to share my findings with all. Unlike Windows, the steps to setting up Mac machine for iOS devices is not that easy. We will see the complete steps required in order to get us ready for iOS testing with Appium on Mac OS X.
 categories:
   - Mobile Automation
@@ -13,48 +13,48 @@ tags:
 date: 2017-04-24
 last_modified_at: 2017-04-24T15:12:19+05:30
 device_list:
-  - url: /assets/images/posts/xcode-device-manager.png
-    image_path: /assets/images/posts/xcode-device-manager.png
+  - url: /assets/images/posts/2017-04-24-appium-automation-ios/xcode-device-manager.png
+    image_path: /assets/images/posts/2017-04-24-appium-automation-ios/xcode-device-manager.png
     alt: Device list
     title: List of devices and simulators
 xcode_general:
-  - url: /assets/images/posts/xcode-general-1.png
-    image_path: /assets/images/posts/xcode-general-1.png
+  - url: /assets/images/posts/2017-04-24-appium-automation-ios/xcode-general-1.png
+    image_path: /assets/images/posts/2017-04-24-appium-automation-ios/xcode-general-1.png
     alt: Xcode General screen
     title: XCode General setting screen
 xcode_auto_sign:
-  - url: /assets/images/posts/xcode-general-auto-sign.png
-    image_path: /assets/images/posts/xcode-general-auto-sign.png
+  - url: /assets/images/posts/2017-04-24-appium-automation-ios/xcode-general-auto-sign.png
+    image_path: /assets/images/posts/2017-04-24-appium-automation-ios/xcode-general-auto-sign.png
     alt: XCode General Auto sign screen
     title: XCode General Auto sign screen
 xcode_auto_sign_team:
-  - url: /assets/images/posts/xcode-general-sign-team.png
-    image_path: /assets/images/posts/xcode-general-sign-team.png
+  - url: /assets/images/posts/2017-04-24-appium-automation-ios/xcode-general-sign-team.png
+    image_path: /assets/images/posts/2017-04-24-appium-automation-ios/xcode-general-sign-team.png
     alt: XCode Auto sign team setting screen
     title: XCode Auto sign team setting screen
 xcode_sign_error:
-  - url: /assets/images/posts/xcode-general-sign.png
-    image_path: /assets/images/posts/xcode-general-sign.png
+  - url: /assets/images/posts/2017-04-24-appium-automation-ios/xcode-general-sign.png
+    image_path: /assets/images/posts/2017-04-24-appium-automation-ios/xcode-general-sign.png
     alt: XCode Auto sign error screen
     title: XCode Auto sign error screen
 xcode_build:
-  - url: /assets/images/posts/xcode-build.png
-    image_path: /assets/images/posts/xcode-build.png
+  - url: /assets/images/posts/2017-04-24-appium-automation-ios/xcode-build.png
+    image_path: /assets/images/posts/2017-04-24-appium-automation-ios/xcode-build.png
     alt: XCode Build screen
     title: XCode Build screen
 xcode_sign_pass:
-  - url: /assets/images/posts/xcode-general.png
-    image_path: /assets/images/posts/xcode-general.png
+  - url: /assets/images/posts/2017-04-24-appium-automation-ios/xcode-general.png
+    image_path: /assets/images/posts/2017-04-24-appium-automation-ios/xcode-general.png
     alt: XCode Auto sign succeeded
     title: XCode Auto sign succeeded
 ios_trust_dev:
-  - url: /assets/images/posts/trust-dev.png
-    image_path: /assets/images/posts/trust-dev.png
+  - url: /assets/images/posts/2017-04-24-appium-automation-ios/trust-dev.png
+    image_path: /assets/images/posts/2017-04-24-appium-automation-ios/trust-dev.png
     alt: iOS Trust developer screen
     title: iOS Trust developer screen
 ios_trust_confirm:
-  - url: /assets/images/posts/trust-page.png
-    image_path: /assets/images/posts/trust-page.png
+  - url: /assets/images/posts/2017-04-24-appium-automation-ios/trust-page.png
+    image_path: /assets/images/posts/2017-04-24-appium-automation-ios/trust-page.png
     alt: iOS trust developer confirmation dialog
     title: iOS trust developer confirmation dialog
 ---
