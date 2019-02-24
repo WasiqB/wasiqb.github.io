@@ -21,7 +21,7 @@ There are so many testers globally who face problems in Automation. I like solvi
 
 There are so many tools and practices which I use in Automation that I will be gradually sharing some useful posts about the same. I will be posting the same here on this site which anyone can refer to know how to use them and when to use them. To post all of them will be time consuming but whenever I do, you can find the same in [Blog section][blog]. So stay tuned...
 
-> If you think I can be of some use to you,
+> If you think I can be of some help to you,
 1. In Automating any projects for you in my free time as a freelancer,
 2. To mentor you to learn latest trends of Automation,
 3. To guide you in implementing test automation from scratch.

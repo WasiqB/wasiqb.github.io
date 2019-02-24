@@ -4,6 +4,7 @@ header:
   overlay_color: "#5e616c"
   overlay_filter: "0.5"
   overlay_image: /assets/images/posts/2019-02-23-github-actions-workflows/actions-bg.jpg
+  teaser: /assets/images/posts/2019-02-23-github-actions-workflows/actions-bg.jpg
 excerpt: I have been using different Continuous Integration tools over the period of time for my open source projects on GitHub, like, Travis CI, Circle CI, Microsoft Azure pipelines, etc. But recently, when GitHub announced the beta launch of GitHub Actions, I was excited to try my hands on it.
 categories:
   - Continuous Integration

@@ -4,6 +4,7 @@ header:
   overlay_color: "#5e616c"
   overlay_filter: "0.5"
   overlay_image: /assets/images/posts/2017-04-24-appium-automation-ios/appium-ios.jpeg
+  teaser: /assets/images/posts/2017-04-24-appium-automation-ios/appium-ios.jpeg
 excerpt: I just completed setting up my Mac for Appium and wanted to share my findings with all. Unlike Windows, the steps to setting up Mac machine for iOS devices is not that easy. We will see the complete steps required in order to get us ready for iOS testing with Appium on Mac OS X.
 categories:
   - Mobile Automation
