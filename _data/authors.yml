@@ -1,0 +1,17 @@
+Faisal Khatri:
+  name        : "Faisal Khatri"
+  bio         : "What do you want, jewels? I am a very extravagant man."
+  avatar      : "https://github.com/mfaisalkhatri.png"
+  links:
+    - label: "LinkedIn"
+      icon: "fab fa-linkedin"
+      url: "https://www.linkedin.com/in/faisalkhatri/"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/mfaisalkhatri"
+    - label: "Facebook"
+      icon: "fab fa-fw fa-facebook-square"
+      url: "https://www.facebook.com/faisal.khatri86"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/mfaisal_khatri"
