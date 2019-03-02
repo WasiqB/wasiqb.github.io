@@ -111,7 +111,7 @@ Now you can start creating your very first workflow from this window by clicking
 
 ## Step 1. Don't rename the file.
 
-Use the default workflow file name and path. Do not modify the file name. It shoould be `main.workflow`. This file is used by GitHub to execute all the workflows defined in it.
+Use the default workflow file name and path. Do not modify the file name. It should be `main.workflow`. This file is used by GitHub to execute all the workflows defined in it.
 
 ## Step 2. Edit the workflow name.
 
@@ -151,7 +151,7 @@ After commit, wait for a minute and check in the action tab, your workflow will 
 
 # Conclusion
 
-As you can see with the example in this post, it was like a cake walk when we created our GitHub Action workflow. The possibilities of using actions is limitless as you can use many other ready to use actions as per your requirements. Also you can create your own action which can be used by others as well.
+As you can see with the example in this post, it is like a cake walk when we created our GitHub Action workflow. The possibilities of using actions is limitless as you can use many other ready-to-use actions as per your requirements. Also you can create your own action which can be used by others as well.
 
 So that was all for Github Actions now, do keep checking this site for more such interesting topics.
 If you liked this post then share it in your network using the **SHARE** button below.
