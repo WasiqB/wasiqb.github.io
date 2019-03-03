@@ -1,14 +1,14 @@
 ---
-title: "Why is Maven project more preferable than simple java project."
+title: "Why is Maven project more preferable than simple Java project."
 header:
   overlay_color: "#5e616c"
   overlay_filter: "0.5"
-  excerpt: In this post we will be discussing about the benefits of maven project over simple java project.
+  excerpt: In this post we will be discussing about the benefits of Maven project over simple Java project.
 categories:
   - Maven
   - Java
-  - automation testing
-  - testing
+  - Automation Testing
+  - Testing
 tags:
   - Maven
   - CI
@@ -16,13 +16,13 @@ tags:
 date: 2019-03-03
 last_modified_at: 2019-03-03
 discussion:
-  - url: /asset/images/posts/2019-03-03-Maven-vs-Java/discussion.jpg
-    image_path: /asset/images/posts/2019-03-03-Maven-vs-Java/discussion.jpg
+  - url: /asset/images/posts/2019-03-03-mavenproject-vs-javaproject/discussion.jpg
+    image_path: /asset/images/posts/2019-03-03-mavenproject-vs-javaproject/discussion.jpg
     alt: maven-vs-java-discussion
     title: maven-vs-java-discussion
 maven-project-structure:
-  - url: /asset/images/posts/2019-03-03-Maven-vs-Java/maven_project_screenshot.png
-    image_path: /asset/images/posts/2019-03-03-Maven-vs-Java/maven_project_screenshot.png
+  - url: /asset/images/posts/2019-03-03-mavenproject-vs-javaproject/maven_project_screenshot.png
+    image_path: /asset/images/posts/2019-03-03-mavenproject-vs-javaproject/maven_project_screenshot.png
     alt: maven-project-structure
     title: maven-project-structure
 ---
@@ -42,6 +42,8 @@ Let me describe you all the benefits of using maven on by one.
 
 So, let’s get started.
 
+{% include gallery id="discussion" caption="Discussion" %}
+
 ### What is Maven?
 Maven is a powerful project management tool that is based on POM(project object model). It is used for projects build, dependency and documentation.
 
@@ -53,6 +55,8 @@ Maven is a powerful project management tool that is based on POM(project object 
 5. Works with CLI(Command line interface).
 
 #### Following is the project structure of maven project, created in Eclipse IDE:
+
+{% include gallery id="maven-project-structure" caption="Maven Project Structure" %}
 
 ### What is pom.xml?
 POM is an acronym for Project Object Model. It contains information about project and configuration of the project such as dependencies, build directory, source directory, test source directory, plugins, goal, etc.
