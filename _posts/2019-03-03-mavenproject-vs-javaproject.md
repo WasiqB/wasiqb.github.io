@@ -1,9 +1,11 @@
 ---
-title: "Why is Maven project more preferable than simple Java project."
+title: "Why is Maven project more preferable than simple Java project ?"
 author: Faisal Khatri
 header:
   overlay_color: "#5e616c"
   overlay_filter: "0.5"
+  overlay_image: /assets/images/posts/2019-03-03-mavenproject-vs-javaproject/discussion_overlay.png
+  teaser: /assets/images/posts/2019-03-03-mavenproject-vs-javaproject/discussion_overlay.png
 excerpt: In this post we will be discussing about the benefits of Maven project over simple Java project.
 categories:
   - Maven
@@ -49,7 +51,7 @@ So, let’s get started.
 
 Maven is a powerful project management tool that is based on POM (project object model). It is used for projects build, dependency and documentation.
 
-1 How Maven solves the following problems we face in project management:
+How Maven solves the following problems we face in project management:
 1. It adds all the necessary jars to the project as per the dependencies put ny user in pom.xml file.
 1. Automatically creates the right project structure.
 1. It makes a project easy to build.
@@ -134,7 +136,7 @@ Phases are actually mapped to underlying goals. The specific goals executed per 
 You can also run the above commands using life cycles commands for e.g.
 - `mvn clean install`
 - `mvn clean test`
-- `mvn clean verify`, etc..
+- `mvn clean verify`
 
 The other major flaw in simple java project is that you cannot run it from CLI also, all the packaging and deploying tasks needs to be taken care manually which is a very tedious task.
 
@@ -143,6 +145,7 @@ Hope, you have got the basic knowledge of how maven works and why it would be mo
 Keep watching this site for more such interesting blogs.
 
 Regards,
+
 Faisal Khatri.
 
 # References
