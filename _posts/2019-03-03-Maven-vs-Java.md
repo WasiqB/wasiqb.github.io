@@ -3,7 +3,7 @@ title: "Why is Maven project more preferable than simple java project."
 header:
   overlay_color: "#5e616c"
   overlay_filter: "0.5"
- excerpt: In this post we will be discussing about the benefits of maven project over simple java project.
+  excerpt: In this post we will be discussing about the benefits of maven project over simple java project.
 categories:
   - Maven
   - Java
@@ -19,12 +19,12 @@ discussion:
   - url: /asset/images/posts/2019-03-03-Maven-vs-Java/discussion.jpg
     image_path: /asset/images/posts/2019-03-03-Maven-vs-Java/discussion.jpg
     alt: maven-vs-java-discussion
-	title: maven-vs-java-discussion
+    title: maven-vs-java-discussion
 maven-project-structure:
   - url: /asset/images/posts/2019-03-03-Maven-vs-Java/maven_project_screenshot.png
     image_path: /asset/images/posts/2019-03-03-Maven-vs-Java/maven_project_screenshot.png
     alt: maven-project-structure
-	title: maven-project-structure
+    title: maven-project-structure
 ---
 
 # Why is Maven more preferable than Simple Java project?
