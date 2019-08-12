@@ -280,6 +280,9 @@ collections:
   appium:
     output: true
     permalink: /:collection/:path/
+  selenium:
+    output: true
+    permalink: /:collection/:path/
   projects:
     output: true
     permalink: /:collection/:path/
