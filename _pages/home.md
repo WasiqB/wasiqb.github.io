@@ -6,7 +6,7 @@ header:
   overlay_color: "#5e616c"
   overlay_filter: "0.5"
   overlay_image: /assets/images/home_banner.jpg
-excerpt: "Quality Analyst Senior Consultant at [ThoughtWorks][] // Open Source Contributor // Blogger // Mentor<br /><small><i class='fas fa-map-marker-alt' aria-hidden='true'></i> Mumbai, India</small><br /><br /><br />"
+excerpt: "Quality Analyst Senior Consultant at ThoughtWorks // Open Source Contributor // Blogger // Mentor<br /><small><i class='fas fa-map-marker-alt' aria-hidden='true'></i> Mumbai, India</small><br /><br /><br />"
 ---
 
 # Welcome to my home!
@@ -35,3 +35,4 @@ Then I am always available to help you. You can connect with me via [Services se
 [project]: /projects/
 [services]: /services/
 [blog]: /blogs/
+[org]: https://www.thoughtworks.com/
