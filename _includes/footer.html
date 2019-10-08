@@ -3,6 +3,7 @@
     {% if site.data.ui-text[site.locale].follow_label %}
       <li><strong>{{ site.data.ui-text[site.locale].follow_label }}</strong></li>
     {% endif %}
+
     {% if site.footer.links %}
       {% for link in site.footer.links %}
         {% if link.label and link.url %}
