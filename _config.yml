@@ -20,7 +20,7 @@ title                    : &name "Wasiq Bhamla"
 title_separator          : "-"
 subtitle                 : "Open source contributor | Mentor | Senior QA Consultant"
 name                     : *name
-description              : &description "Senior QA Consultant | Open source contributor"
+description              : &description "Senior QA Consultant at ThoughtWorks"
 url                      : "https://wasiqb.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "WasiqB/wasiqb.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
