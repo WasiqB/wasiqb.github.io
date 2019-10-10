@@ -29,7 +29,7 @@ There are many libraries and test frameworks which I have created and open sourc
 **Pro Tip:** There are many projects on my [GitHub][github] but the same is not yet available in the [projects][project] section. I am working on adding documentations for all of them, which I will publish as soon as it is ready.
 {: .notice--warning}
 
-I am open to feedbacks, so you are welcome to use any of my project and share you're feedbacks on **how ggod it was** or **how it can be improved**.
+I am open to feedbacks, so you are welcome to use any of my project and share you're feedbacks on **how good it was** or **how it can be improved**.
 
 # Need my help?
 
