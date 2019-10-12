@@ -2,35 +2,45 @@
 layout: splash
 permalink: /
 classes: wide
+title: Wasiq Bhamla
 header:
   overlay_color: "#5e616c"
   overlay_filter: "0.5"
   overlay_image: /assets/images/home_banner.jpg
-excerpt: "Quality Analyst Senior Consultant at ThoughtWorks // Open Source Contributor // Blogger // Mentor<br /><small><i class='fas fa-map-marker-alt' aria-hidden='true'></i> Mumbai, India</small><br /><br /><br />"
+excerpt: 'Senior QA Consultant, Open Source Contributor, Mentor <br /><small><i class="fas fa-map-marker-alt" aria-hidden="true"></i> Mumbai, India</small><br /><br /><br /> {::nomarkdown}<iframe src="https://ghbtns.com/github-btn.html?user=wasiqb&type=follow&count=true&size=large" frameborder="0" scrolling="0" width="220px" height="30px"></iframe> <a href="https://twitter.com/wasiqbhamla?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-size="large" data-show-screen-name="false" data-show-count="true">Follow @wasiqbhamla</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>{:/nomarkdown}'
 ---
 
-# Welcome to my home!
+# Me?
 
-Hello everyone! I am Test Automation specialist having more than 12 years of experience in the field. I am passionate about learning new technologies and Automation tools which I try to use and improve Automation. I have done Automation for Windows Desktop apps, Soap / Rest API's, Web apps and Mobile based apps.
+I am **Wasiq Amjad Bhamla**, based in Mumbai, Maharashtra, India, a Senior QA Consultant at ThoughtWorks. Apart from that I am also an active open source contributor on [GitHub][github] where I have created some useful test automation frameworks. I also like mentoring people who are as eager to learn as I am.
 
-I aim to create complete Automation framework suite which will be independent to each other and which will cover different areas of Automation and application types and which will help testers to write scalable and maintainable test scripts. Those framework will be open sourced and will be hosted on GitHub.
+My overall experience in testing field is more than 12 years. My experience started with testing desktop based application for capital market domain, then progressed to testing Web applications, API's and Mobile native and Hybrid apps.
 
-Although I have already open sourced some of the frameworks on GitHub which you can checkout on my [GitHub profile][github]. Also you can check out the same in the [Projects section][project]. Other projects will be released soon...
+Being lazy by nature, I tend to automate everything which I need to do manually. This thinking keeps me motivated to learn new testing tools, new technologies and best practices. I keep challenging myself to push my limits and move out of my comfort zone and upgrade my skills. Since I was weak in writing about anything, I started this site, and started to write about myself and the knowledge which I gained in form of blogs (which is still in process to be published... Stay tuned for some blogs soon)
 
-There are so many testers globally who face problems in Automation. I like solving problems faced by them on StackOverflow. It is also rewarding for me as well, as whenever I solve your queries, I get rewarded with some reputation points which encourages me even more. You can checkout my **700++** reputation profile on [StackOverflow][so].
+One area where I have not yet stepped on is speaking in conferences, youtubing and podcasts. This areas I am planning to explore soon. Will definitely post about it as soon as there is some progress.
 
-There are so many tools and practices which I use in Automation that I will be gradually sharing in some useful posts about the same. I will be posting the same here on this site which anyone can refer to know how to use them and when to use them. To post all of them will be time consuming but whenever I do, you can find the same in [Blog section][blog]. So stay tuned...
+To keep things short, if you want to know more about me professionally then check out my [LinkedIn][linkedin] profile.
+{: .notice--success}
 
-> If you think I can be of some help to you,
-1. In Automating any projects for you in my free time as a freelancer,
-2. To mentor you to learn latest trends of Automation,
-3. To guide you in implementing test automation from scratch.
-4. Or anything else you may feel I can help you with.
-Then I am always available to help you. You can connect with me via [Services section][services] to book your slot on my Calendar so we can discuss more about it.
+# My work
 
-> **Note:** These services are **NOT FREE** as I have to take out time from my personal free time. We can discuss the fees on the same call.
+There are many libraries and test frameworks which I have created and open sourced, same you can also use in any of your projects with minimal on-boarding time. All my works, with it's documentation can be found in [projects][project] section. Feel free to check it out.
+
+**Pro Tip:** There are many projects on my [GitHub][github] but the same is not yet available in the [projects][project] section. I am working on adding documentations for all of them, which I will publish as soon as it is ready.
+{: .notice--warning}
+
+I am open to feedbacks, so you are welcome to use any of my project and share you're feedbacks on **how good it was** or **how it can be improved**.
+
+# Need my help?
+
+If you feel I can help you in any way then feel free to connect with me here on this site via chat window or book a slot on my [calender][services] to discuss the same.
+
+**Please Note:** Since I have some bitter experience in past where people / organizations reach out for help / freelancing opportunity, promising some fees to me but never returned after receiving my services, so now I have started charging some portion as advance fees before starting the work. Fees can be finalized during our first discussion.
+{: .notice--danger}
 
 [github]: https://github.com/WasiqB
+[linkedin]: https://www.linkedin.com/in/wasiqbhamla
 [so]: https://stackoverflow.com/users/5320558/wasiq-bhamla
 [project]: /projects/
 [services]: /services/
