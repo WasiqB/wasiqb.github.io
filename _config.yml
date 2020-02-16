@@ -160,6 +160,7 @@ include:
   - _pages
   - _projects
   - _appium
+  - _selenium
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
@@ -325,6 +326,20 @@ defaults:
       toc_sticky: true
       sidebar:
         nav: "appium"
+  # Selenium
+  - scope:
+      path: ""
+      type: selenium
+    values:
+      layout: single
+      read_time: false
+      author_profile: false
+      share: false
+      comments: false
+      toc: true
+      toc_sticky: true
+      sidebar:
+        nav: "selenium"
   # _projects
   - scope:
       path: ""

@@ -72,3 +72,9 @@ appium:
         url: /projects/appium/sample-test-class/
       - title: TestNG XML
         url: /projects/appium/sample-testng/
+
+selenium:
+  - title: Getting Started
+    children:
+      - title: Introduction
+        url: /projects/selenium/intro/
