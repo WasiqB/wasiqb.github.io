@@ -78,3 +78,19 @@ selenium:
     children:
       - title: Introduction
         url: /projects/selenium/intro/
+      - title: Pre-requisite
+        url: /projects/selenium/pre-requisite/
+      - title: Usage
+        url: /projects/selenium/usage/
+  - title: Configuration
+    children:
+      - title: Basics
+        url: /projects/selenium/config-basics/
+      - title: Local Setting
+        url: /projects/selenium/local-setting/
+      - title: Remote Setting
+        url: /projects/selenium/remote-setting/
+  - title: Core
+    children:
+      - title: ORP - Object Repository Pattern
+        url: /projects/selenium/orp/
