@@ -94,3 +94,5 @@ selenium:
     children:
       - title: ORP - Object Repository Pattern
         url: /projects/selenium/orp/
+      - title: Supported Browser
+        url: /projects/selenium/supported-browsers/
