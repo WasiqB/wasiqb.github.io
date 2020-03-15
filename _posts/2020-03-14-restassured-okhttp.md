@@ -4,6 +4,8 @@ author: Faisal Khatri
 header:
   overlay_color: "#5e616c"
   overlay_filter: "0.5"
+  overlay_image: /assets/images/posts/2020-03-14-restassured-okhttp/christopher-gower-m_HRfLhgABo-unsplash.jpg
+  caption: Photo by Christopher Gower on Unsplash
 excerpt: In this post we will be discussing about how to write API Tests using REST-Assured and OkHttp.
 categories:
   - REST-Assured
