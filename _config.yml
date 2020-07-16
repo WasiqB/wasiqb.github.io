@@ -12,7 +12,7 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "contrast" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en-US"
@@ -64,12 +64,16 @@ atom_feed:
   path                   : "http://feeds.feedburner.com/WasiqBhamla"
 search                   : true # true, false (default)
 search_full_content      : true # true, false (default)
-search_provider          : # lunr (default), algolia, google
+search_provider          : algolia # lunr (default), algolia, google
 algolia:
-  application_id         : # YOUR_APPLICATION_ID
-  index_name             : # YOUR_INDEX_NAME
-  search_only_api_key    : # YOUR_SEARCH_ONLY_API_KEY
-  powered_by             : # true (default), false
+  application_id         : JYM5MTO78V # YOUR_APPLICATION_ID
+  index_name             : prod_wasiqb # YOUR_INDEX_NAME
+  search_only_api_key    : 151917eaa9d78486b1148fe818088aa3 # YOUR_SEARCH_ONLY_API_KEY
+  powered_by             : true # true (default), false
+  extensions_to_index    :
+    - html
+    - md
+  files_to_exclude       : []
 google:
   search_engine_id       : # YOUR_SEARCH_ENGINE_ID
   instant_search         : # false (default), true
