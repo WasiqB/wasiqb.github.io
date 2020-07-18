@@ -1,5 +1,5 @@
 ---
-title: "Why is Maven project more preferable than simple Java project ?"
+title: "Why is Maven project more preferable than simple Java project?"
 author: Faisal Khatri
 header:
   overlay_color: "#5e616c"
@@ -39,7 +39,7 @@ Today we will be discussing about maven and java projects.
 Many people are aware of Maven. But if I ask why would you prefer Maven based Java project over simple Java project?
 Many may give just a normal answer like “Maven has the ability to download dependencies automatically based on the dependencies block you put in respective maven project’s pom.xml file”.
 
-Yes, that’s true and its one of the major bonus point of maven based java project. But there are certain other benefits in maven which when utilized fully can help you a lot in managing and implementing your project.
+Yes, that’s true and its one of the major bonus point of maven based java project. But there are certain other benefits in maven which when utilised fully can help you a lot in managing and implementing your project.
 
 Let me describe you all the benefits of using maven on by one.
 
@@ -62,7 +62,7 @@ How Maven solves the following problems we face in project management:
 
 {% include gallery id="maven-project-structure" caption="Maven Project Structure" %}
 
-# What is pom.xml?
+# What is `pom.xml`?
 
 POM is an acronym for Project Object Model. It contains information about project and configuration of the project such as dependencies, build directory, source directory, test source directory, plugins, goal, etc.
 Maven reads pom.xml and then executes goal.
@@ -128,7 +128,7 @@ Once you put dependencies inside the file and save it, maven searches for depend
 
 There are two other Maven life cycles of note beyond the default list above. They are as follows:
 
-- `mvn clean` : Cleans up artifacts created by prior builds.
+- `mvn clean` : Cleans up artefacts created by prior builds.
 - `mvn site` : Generates site documentation for this project.
 
 Phases are actually mapped to underlying goals. The specific goals executed per phase is dependent upon the packaging type of the project.
