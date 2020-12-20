@@ -1,121 +1,67 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your entire site, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# `jekyll serve`. If you change this file, please restart the server process.
-
-# Theme Settings
-#
-# Review documentation to determine if you should use `theme` or `remote_theme`
-# https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
-
-# theme                  : "minimal-mistakes-jekyll"
-# remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "dark"
 
 # Site Settings
 locale                   : "en-US"
 title                    : &name "Wasiq Bhamla"
-title_separator          : "-"
+title_separator          : "|"
 subtitle                 : "Open source contributor | Mentor | Senior QA Consultant"
 name                     : *name
 description              : &description "Senior QA Consultant at ThoughtWorks"
-url                      : "https://wasiqb.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : "WasiqB/wasiqb.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
-teaser                   : /assets/images/home_banner.jpg # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-breadcrumbs              : false # true, false (default)
+url                      : "https://wasiqb.github.io"
+repository               : "WasiqB/wasiqb.github.io"
+teaser                   : /assets/images/home_banner.jpg
+breadcrumbs              : true
 words_per_minute         : 200
 comments:
-  provider               : "disqus" # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "staticman_v2", "utterances", "custom"
+  provider               : "disqus"
   disqus:
-    shortname            : "https-wasiqb-github-io" # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
-  discourse:
-    server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
-  facebook:
-    # https://developers.facebook.com/docs/plugins/comments
-    appid                :
-    num_posts            : # 5 (default)
-    colorscheme          : # "light" (default), "dark"
-  utterances:
-    theme                : # "github-light" (default), "github-dark"
-staticman:
-  allowedFields          : # ['name', 'email', 'url', 'message']
-  branch                 : # "master"
-  commitMessage          : # "New comment by {fields.name}"
-  filename               : # comment-{@timestamp}
-  format                 : # "yml"
-  moderation             : # true
-  path                   : # "/_data/comments/{options.slug}" (default)
-  requiredFields         : # ['name', 'email', 'message']
-  transforms:
-    email                : # "md5"
-  generatedFields:
-    date:
-      type               : # "date"
-      options:
-        format           : # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
-  endpoint               : # URL of your own deployment with trailing slash, will fallback to the public instance
+    shortname            : "https-wasiqb-github-io"
 reCaptcha:
   siteKey                : 6Leu6z8UAAAAAPVQTbLQ8ZuhLe4Ui7WciKu0jNVI
   secret                 : 6Leu6z8UAAAAAGr40US3aarh3Cd8iXjgvwEWCf5v
 atom_feed:
   path                   : "http://feeds.feedburner.com/WasiqBhamla"
-search                   : true # true, false (default)
-search_full_content      : true # true, false (default)
-search_provider          : algolia # lunr (default), algolia, google
+search                   : true
+search_full_content      : true
+search_provider          : algolia
 algolia:
-  application_id         : JYM5MTO78V # YOUR_APPLICATION_ID
-  index_name             : prod_wasiqb # YOUR_INDEX_NAME
-  search_only_api_key    : 151917eaa9d78486b1148fe818088aa3 # YOUR_SEARCH_ONLY_API_KEY
-  powered_by             : true # true (default), false
+  application_id         : JYM5MTO78V
+  index_name             : prod_wasiqb
+  search_only_api_key    : 151917eaa9d78486b1148fe818088aa3
+  powered_by             : true
   extensions_to_index    :
     - html
     - md
   files_to_exclude       : []
-google:
-  search_engine_id       : # YOUR_SEARCH_ENGINE_ID
-  instant_search         : # false (default), true
 
 # SEO Related
 google_site_verification : i3x-x1g3IFyNUzu6z4EMXpwviY9o7FrCYkBXDNq90wE
-bing_site_verification   :
-yandex_site_verification :
-naver_site_verification  :
 
 # Social Sharing
 twitter:
   username               : WasiqBhamla
-facebook:
-  username               : wasiqb
-  app_id                 :
-  publisher              :
-og_image                 : # Open Graph/Twitter default site image
-# For specifying social profiles
-# - https://developers.google.com/structured-data/customize/social-profiles
+
 social:
-  type                   : # Person or Organization (defaults to Person)
-  name                   : # If the user or organization name differs from the site's name
-  links: # An array of links to social media profiles
+  type                   : Person
+  name                   : *name
+  links:
     - &linkedin "https://www.linkedin.com/in/wasiqbhamla"
     - &twitter "https://twitter.com/WasiqBhamla"
     - &facebook "https://www.facebook.com/wasiqb"
     - &github "https://github.com/WasiqB"
     - &stackoverflow "https://stackoverflow.com/users/5320558/wasiq-bhamla"
-    - "https://plus.google.com/u/0/+WasiqBhamla"
 
 # Analytics
 analytics:
-  provider               : "google-universal" # false (default), "google", "google-universal", "custom"
+  provider               : "google-universal"
   google:
     tracking_id          : "UA-111539609-1"
-    anonymize_ip         : true # true, false (default)
+    anonymize_ip         : true
 
 # Site Author
 author:
   name             : *name
-  avatar           : "https://github.com/WasiqB.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "https://github.com/WasiqB.png"
   bio              : *description
   location         : "Mumbai, India"
   email            : &email "wasbhamla2005@gmail.com"
@@ -189,8 +135,8 @@ exclude:
   - Rakefile
   - README
   - tmp
-  - /docs # ignore Minimal Mistakes /docs
-  - /test # ignore Minimal Mistakes /test
+  - /docs
+  - /test
 keep_files:
   - .git
   - .svn
@@ -218,13 +164,13 @@ kramdown:
 # Sass/SCSS
 sass:
   sass_dir: _sass
-  style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
+  style: compressed
 
 # Outputting
 permalink: /:categories/:title/
-# paginate: 5 # amount of posts to show
-# paginate_path: /blogs/page:num/
-timezone: Asia/Kolkata # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+paginate: 5
+paginate_path: /blogs/page:num/
+timezone: Asia/Kolkata
 
 # Plugins (previously gems:)
 plugins:
@@ -234,6 +180,7 @@ plugins:
   - jekyll-feed
   - jemoji
   - jekyll-include-cache
+  - jekyll-seo-tag
 
 # mimic GitHub Pages with --safe
 whitelist:
@@ -245,38 +192,28 @@ whitelist:
   - jekyll-include-cache
 
 # Archives
-#  Type
-#  - GitHub Pages compatible archive pages built with Liquid ~> type: liquid (default)
-#  - Jekyll Archives plugin archive pages ~> type: jekyll-archives
-#  Path (examples)
-#  - Archive page should exist at path when using Liquid method or you can
-#    expect broken links (especially with breadcrumbs enabled)
-#  - <base_path>/tags/my-awesome-tag/index.html ~> path: /tags/
-#  - <base_path/categories/my-awesome-category/index.html ~> path: /categories/
-#  - <base_path/my-awesome-category/index.html ~> path: /
 category_archive:
   type: liquid
   path: /categories/
 tag_archive:
   type: liquid
   path: /tags/
-# https://github.com/jekyll/jekyll-archives
-# jekyll-archives:
-#   enabled:
-#     - categories
-#     - tags
-#   layouts:
-#     category: archive-taxonomy
-#     tag: archive-taxonomy
-#   permalinks:
-#     category: /categories/:name/
-#     tag: /tags/:name/
-#     year: '/:year/'
-#     month: '/:year/:month/'
-#     day: '/:year/:month/:day/'
+
+jekyll-archives:
+  enabled:
+    - categories
+    - tags
+  layouts:
+    category: archive-taxonomy
+    tag: archive-taxonomy
+  permalinks:
+    category: /categories/:name/
+    tag: /tags/:name/
+    year: '/:year/'
+    month: '/:year/:month/'
+    day: '/:year/:month/:day/'
 
 # HTML Compression
-# - http://jch.penibelst.de/
 compress_html:
   clippings: all
   ignore:
