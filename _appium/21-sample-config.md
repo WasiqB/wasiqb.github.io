@@ -1,6 +1,6 @@
 ---
-permalink: /projects/appium/sample-config/
-title: "Config file"
+title: Config file
+permalink: "/projects/appium/sample-config/"
 ---
 
 ## Sample Config File
@@ -10,32 +10,41 @@ are done.
 For naming convention of the file, refer the details mentioned [here](/coteafs/appium/config-basics/).
 
 ```yaml
-# Common server block.
 server: &default_server
-  appium_js_path: C:\Users\wasiqb\AppData\Roaming\npm\node_modules\appium\build\lib\main.js
-  node_path: C:\Program Files\nodejs\node.exe
+  log_file_path: logs/appium-server.log
+  appium_js_path: /usr/local/lib/node_modules/appium/build/lib/main.js
   arguments:
     log_level: DEBUG
     log_time_stamp: true
-    local_time_zone: true
     session_override: true
+    local_time_zone: true
     android:
       suppress_adb_kill_server: true
 
-# Main servers list block with list of servers.
 servers:
   android:
     host: 0.0.0.0
     port: 4723
-    <<: *default_server # refer common block here in this server.
+    <<: *default_server
+  ios:
+    host: 0.0.0.0
+    port: 4725
+    log_file_path: logs/appium-ios-server.log
+    appium_js_path: /usr/local/lib/node_modules/appium/build/lib/main.js
+    arguments:
+      log_level: DEBUG
+      log_time_stamp: true
+      local_time_zone: true
+      session_override: true
+      ios:
+        wda_port: 8101
   browserstack:
     protocol: HTTPS
     host: hub-cloud.browserstack.com
     cloud: true
-    user_name: ${env.user} # System property placeholder.
-    password: ${env.pass} # System property placeholder.
+    user_name: ${env:CLOUD_USER}
+    password: ${env:CLOUD_KEY}
 
-# Common device block with common settings.
 device: &default_device
   platform_type: ANDROID
   app_type: HYBRID
@@ -46,30 +55,69 @@ device: &default_device
   full_reset: true
   playback:
     record:
-      enabled: true
+      enabled: false
     delay_before_swipe: 200
     delay_after_swipe: 100
     delay_before_tap: 0
     delay_after_tap: 0
 
-# Main device array block with multiple devices.
 devices:
   test_local:
-    device_name: pixel2
+    device_name: emulator-5554
     device_version: 8.1
     app_location: apps/android/VodQA.apk
-    automation_name: APPIUM
-    <<: *default_device # refer common device setting block here.
+    automation_name: UIAUTOMATOR2
+    <<: *default_device
     device_type: SIMULATOR
     android:
-      avd: pixel2
+      avd: emulator-5554
       avd_launch_timeout: 60000
       avd_ready_timeout: 60000
+      avd_args: -gpu swiftshader_indirect
+      apk_install_timeout: 60000
   test_browserstack:
-    device_name: Samsung Galaxy S8
-    device_version: 7.0
-    app_location: ${env.app} # System property placeholder.
     cloud_app: true
     automation_name: APPIUM
+    capabilities:
+      os_version: 9.0
+      device: Samsung Galaxy S10
+      app: ${env:APP}
+      project: Project Appium
+      build: Build-1
+      name: Test 1
+      browserstack.appium_version: 1.18.0
+  test_browserstack_ios:
+    cloud_app: true
+    platform_type: IOS
+    automation_name: XCUI
+    capabilities:
+      os_version: 14
+      device: iPhone 12 Pro Max
+      app: ${env:APP_IOS}
+      project: Project Appium
+      build: Build-1
+      name: IOS_Test 1
+      browserstack.appium_version: 1.18.0
     <<: *default_device
+  iphone:
+    device_name: iPhone 12 Pro
+    device_version: 14.1
+    app_location: apps/ios/wdio-app.app.zip
+    automation_name: XCUI
+    device_type: SIMULATOR
+    platform_type: IOS
+    app_type: NATIVE
+    session_timeout: 120000
+    clear_system_files: true
+    no_reset: false
+    full_reset: true
+    playback:
+      record:
+        enabled: false
+      delay_before_swipe: 200
+      delay_after_swipe: 100
+      delay_before_tap: 0
+      delay_after_tap: 0
+    ios:
+      auto_accept_alerts: true
 ```

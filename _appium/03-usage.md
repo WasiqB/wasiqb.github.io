@@ -1,6 +1,6 @@
 ---
-permalink: /projects/appium/usage/
-title: "Usage"
+title: Usage
+permalink: "/projects/appium/usage/"
 toc: true
 ---
 
@@ -10,13 +10,13 @@ Any of the following options can be used to start working with the framework.
 
 ### A. Maven Dependency
 
-The framework can be used directly by adding dependency in the `POM.xml` file as shown below:
+The framework can be used directly by adding dependency in the `pom.xml` file as shown below:
 
 ```xml
 <dependency>
   <groupId>com.github.wasiqb.coteafs</groupId>
   <artifactId>appium</artifactId>
-  <version>3.0.0</version>
+  <version>3.5.1</version>
 </dependency>
 ```
 
@@ -27,7 +27,7 @@ Sometimes it is observed that due to some conflicting dependencies for SnakeYaml
 <dependency>
   <groupId>org.testng</groupId>
   <artifactId>testng</artifactId>
-  <version>6.11</version>
+  <version>7.3.0</version>
   <exclusions>
     <exclusion>
       <groupId>org.yaml</groupId>

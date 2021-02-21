@@ -1,6 +1,6 @@
 ---
-permalink: /projects/appium/orp/
-title: "ORP - Object Repository Pattern"
+title: ORP - Object Repository Pattern
+permalink: "/projects/appium/orp/"
 toc: true
 ---
 
@@ -45,11 +45,9 @@ Here is an example of how to create `DeviceElement` in `LoginActivity` class
     .parent (main);
 ```
 
-> Did you notice 'forAndroid' method used in the code above?
+> Did you notice `forAndroid` method used in the code above?
 
 It refers to locators specific for Android platform.
 Likewise, `forIos` method is used to save iOS platform specific locator.
 
-If you still find it difficult to understand, message me by clicking on the chat icon on the extreme right bottom of this site Or post your question in the [group][groups].
-
-[groups]: https://groups.google.com/forum/#!forum/coteafs-appium
+If you still find it difficult to understand, message me by clicking on the chat icon on the extreme right bottom of this site.

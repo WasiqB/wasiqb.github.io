@@ -1,6 +1,6 @@
 ---
-permalink: /projects/appium/device-setting/
-title: "Device Settings"
+title: Device Settings
+permalink: "/projects/appium/device-setting/"
 toc: true
 ---
 
@@ -11,11 +11,11 @@ Following is the device config list:
 Key | Platform | Allowed Values | Description
 ----|----------|----------------|------------
 `device_name` | All | | Name of the device.
-`device_type` | All | REAL, SIMULATOR | Device type.
-`platform_type` | All | ANDROID, IOS, WINDOWS | Platform type.
+`device_type` | All | `REAL`, `SIMULATOR` | Device type.
+`platform_type` | All | `ANDROID`, `IOS`, `WINDOWS` | Platform type.
 `device_version` | All | | Platform version.
-`automation_name` | All | APPIUM, UIAUTOMATOR2, ESPRESSO, XCUI | Automation used.
-`app_type` | All | HYBRID, NATIVE, WEB | Application Type.
+`automation_name` | All | `APPIUM`, `UIAUTOMATOR2`, `ESPRESSO`, `XCUI` | Automation used.
+`app_type` | All | `HYBRID`, `NATIVE`, `WEB` | Application Type.
 `android` | Android | NA | Android device specific settings. See [here][android].
 `ios` | iOS | NA | iOS device specific settings. See [here][ios].
 `playback` | All | NA | Playback specific settings. See [here][playback].
@@ -27,7 +27,7 @@ Key | Platform | Allowed Values | Description
 `session_timeout` | All | Int | New command timeout value.
 `no_reset` | All | false | true, if app reset is not required, else, can be omitted.
 `full_reset` | All | false | true, if full reset of app is required, else, can be omitted.
-`browser` | All | BROWSER, CHROME, CHROMIUM, SAFARI | When running web tests.
+`browser` | All | `BROWSER`, `CHROME`, `CHROMIUM`, `SAFARI` | When running web tests.
 `udid` | All | | Device UDID.
 `key_typing_delay` | All | Int | Delay in ms for typing.
 
@@ -97,7 +97,7 @@ Key | Platform | Allowed Values | Description
 `enabled` | Both | Boolean | If true, feature will be enabled.
 `path` | Both | String | Path for the video, Defaults to `/video` directory under your test project.
 `prefix` | Both | String | Prefix for the video file. Defaults `VID`.
-`quality` | iOS | LOW, MEDIUM, HIGH, PHOTO | Video Quality. Defaults `MEDIUM`.
+`quality` | iOS | `LOW`, `MEDIUM`, `HIGH`, `PHOTO` | Video Quality. Defaults `MEDIUM`.
 `size` | Android | String (Format: WIDTHxHEIGHT) | Resolution of the video.
 
 [android]: #android-device-settings

@@ -1,9 +1,9 @@
 ---
-permalink: /projects/appium/sample-test-class/
-title: "Test Class"
+title: Test Class
+permalink: "/projects/appium/sample-test-class/"
 ---
 
-## Sample coe for Tests
+## Sample code for Tests
 
 Once the coding for Setup, activity and action class is completed, writing tests can be started with by extending the base test class created earlier in Setup.
 

@@ -1,26 +1,35 @@
 ---
-permalink: /projects/appium/sample-testng/
-title: "Sample TestNG XML"
+title: Sample TestNG XML
+permalink: "/projects/appium/sample-testng/"
 ---
 
-## Sample TestNG.xml
+## Sample TestNG.yaml
 
-This is sample TestNG XML file for demonstration purpose.
+This is sample `testng.yaml` file for demonstration purpose.
 
-```xml
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="coteafs-appium Test Suite" preserve-order="true">
-  <test name="Android Test">
-    <parameter name="server" value="android" />
-    <parameter name="device" value="test_local" />
-    <classes>
-      <class name="com.github.wasiqb.coteafs.appium.android.VodQATest">
-        <methods>
-          <include name="testLogin" />
-        </methods>
-      </class>
-    </classes>
-  </test>
-</suite>
+```yaml
+name: coteafs-appium Test Suite
+listeners:
+  - com.github.wasiqb.coteafs.listeners.ConfigListener
+  - com.github.wasiqb.coteafs.listeners.SuiteListener
+  - com.github.wasiqb.coteafs.listeners.TestListener
+  - com.github.wasiqb.coteafs.listeners.ExecutionListener
+  - com.github.wasiqb.coteafs.listeners.DataProviderListener
+  - com.github.wasiqb.coteafs.listeners.AnnotationTransformer
+  - com.github.wasiqb.coteafs.listeners.SuiteResultReporter
+tests:
+  - name: Android Test
+    parameters: { server: browserstack, device: test_browserstack }
+    classes:
+      - name: com.github.wasiqb.coteafs.appium.android.VodQATest
+        includedMethods:
+          - testLogin
+          - testLongPress
+          - testNativeView
+          - testSlider
+          - testVerticleSwipe
+          - testRotation
+        excludedMethods:
+          - testDragDrop
+
 ```

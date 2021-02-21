@@ -1,6 +1,6 @@
 ---
-permalink: /projects/appium/pre-requisite/
-title: "Pre-Requisite"
+title: Pre-Requisite
+permalink: "/projects/appium/pre-requisite/"
 ---
 
 When using **coteafs-appium**, make sure that following tech-stack is available at your end:
@@ -21,9 +21,12 @@ Following tools need to be installed before using this framework:
 
 Tools | Version
 ------|---------
-[Java][jdk] | 1.8
-NodeJS  |  8.12
-Appium Server  |  1.9.1
-Appium Desktop  |  1.8.2
+[Java][jdk] | 15
+[NodeJS][node]  |  14+
+[Appium Server][appium]  |  1.19+
+[Appium Desktop][appium-desktop]  |  1.19+
 
-[jdk]: http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
+[jdk]: https://jdk.java.net/15/
+[node]: https://nodejs.org/en/download/v
+[appium]: https://appium.io/docs/en/about-appium/getting-started/?lang=en
+[appium-desktop]: https://github.com/appium/appium-desktop/releases
