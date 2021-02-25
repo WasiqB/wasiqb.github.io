@@ -29,17 +29,19 @@ features:
 - image_path: "/assets/images/projects/appium/undraw_access_denied_6w73.svg"
   alt: Battery aware
   title: Battery aware
-  excerpt: Has battery awareness as test execution will terminate if battery level
-    is less than 20% and the device is not on charge.
-- excerpt: Provide facility to allow video recording of tests on Android and iOS.
+  excerpt: Has battery awareness for real device as the test execution will terminate
+    if battery level is less than 20% and the device is not on charge.
+- excerpt: Provides facility to allow video recording of tests on Android and iOS.
   image_path: "/assets/images/projects/appium/undraw_video_upload_3d4u.svg"
   alt: Video Record
   title: Video Record
-- excerpt: Provides facility to run tests on Cloud platforms like BrowserStack.
+- excerpt: Provides facility to run tests on Cloud platforms like BrowserStack and
+    SauceLabs.
   image_path: "/assets/images/projects/appium/undraw_going_up_ttm5.svg"
   alt: Cloud Support
   title: Cloud Support
-- excerpt: Supports automation of mobiles and tablets for Android and iOS platforms.
+- excerpt: Supports automation of mobiles and tablets for real devices or simulators
+    / emulators for Android and iOS platforms.
   image_path: "/assets/images/projects/appium/undraw_in_sync_xwsa.svg"
   alt: Multi device support
   title: Multi device support
@@ -49,12 +51,12 @@ features:
   alt: Control Mobile Network
   title: Control Mobile Network
 - excerpt: Provides facility to capture screenshot while test execution or on test
-    failure for Android and iOS.
+    failure.
   image_path: "/assets/images/projects/appium/undraw_Camera_re_cnp4.svg"
   alt: Screenshots
   title: Screenshots
-- excerpt: Promotes clean code practices by enforcing page object modal where all
-    the locators are stored in respective activity classes.
+- excerpt: Promotes clean code practices by enforcing page object model where all
+    the locators are stored in their respective activity classes.
   image_path: "/assets/images/projects/appium/undraw_content_structure_79gj.svg"
   alt: Page object modal
   title: Page object modal
@@ -63,7 +65,7 @@ features:
   image_path: "/assets/images/projects/appium/undraw_real-time_sync_o57k.svg"
   alt: Parallel execution
   title: Parallel execution
-- excerpt: Provides logging support using Log4J2 to log all events occurred during
+- excerpt: Provides logging support using Log4J 2 to log all events occurred during
     test execution.
   image_path: "/assets/images/projects/appium/undraw_my_files_swob.svg"
   alt: Logging events

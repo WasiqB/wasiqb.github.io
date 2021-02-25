@@ -7,9 +7,9 @@ header:
   overlay_color: "#5e616c"
   overlay_filter: 0.5
   overlay_image: "/assets/images/home_banner.jpg"
-excerpt: Senior QA Consultant, Open Source Contributor, Mentor <br /><small><i class="fas
-  fa-map-marker-alt" aria-hidden="true"></i> Mumbai, India</small><br /><br /><br
-  /> {::nomarkdown}<iframe src="https://ghbtns.com/github-btn.html?user=wasiqb&type=follow&count=true&size=large"
+excerpt: Open Source Contributor, Mentor and Senior QA Consultant at ThoughtWorks
+  <br /><small><i class="fas fa-map-marker-alt" aria-hidden="true"></i> Mumbai, India</small><br
+  /><br /><br /> {::nomarkdown}<iframe src="https://ghbtns.com/github-btn.html?user=wasiqb&type=follow&count=true&size=large"
   frameborder="0" scrolling="0" width="220px" height="30px"></iframe> <a href="https://twitter.com/wasiqbhamla?ref_src=twsrc%5Etfw"
   class="twitter-follow-button" data-size="large" data-show-screen-name="false" data-show-count="true">Follow
   @wasiqbhamla</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>{:/nomarkdown}

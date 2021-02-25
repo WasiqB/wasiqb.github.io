@@ -4,7 +4,7 @@ minimal_mistakes_skin    : "dark"
 locale                   : "en-US"
 title                    : &name "Wasiq Bhamla"
 title_separator          : "|"
-subtitle                 : "Open source contributor | Mentor | Senior QA Consultant"
+subtitle                 : "Open source contributor | Mentor | Senior QA Consultant at ThoughtWorks"
 name                     : *name
 description              : &description "Senior QA Consultant at ThoughtWorks"
 url                      : "https://wasiqb.github.io"
