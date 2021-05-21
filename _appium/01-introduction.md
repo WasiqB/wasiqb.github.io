@@ -29,6 +29,8 @@ Following are the key features of the framework:
 - It has inbuilt methods which allows using gestures like swipe, zoom and pinch with ease.
 - It checks battery status and will terminate test execution when battery level is less than 20% on real device.
 - It allows video recording of tests on Android and iOS.
+- It allows video streaming of test execution of Android and iOS.
+- It allows changing device language to test different locales on Android and iOS.
 - It allows executing tests on Cloud based platforms like BrowserStack.
 - It allows capturing screenshots on device while test execution.
 - It allows parallel or sequential execution on multiple devices.

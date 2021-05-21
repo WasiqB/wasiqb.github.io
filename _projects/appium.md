@@ -12,6 +12,8 @@ header:
     url: "/projects/appium/intro/"
   - label: "<i class='fab fa-github'></i> View on GitHub"
     url: https://github.com/WasiqB/coteafs-appium
+  - label: "<i class='fab fa-discord'></i> Join our Discord"
+    url: https://discord.gg/vkR9TBdKxZ
 excerpt: 'Wrapper Appium Test Automation Framework which supports Automation of Mobile
   and Tablet apps for Android and iOS Real Devices / Emulators. <br /><br /> {::nomarkdown}<iframe
   style="display: inline-block;" src="https://ghbtns.com/github-btn.html?user=WasiqB&repo=coteafs-appium&type=watch&count=true&size=large&v=2"
@@ -35,6 +37,10 @@ features:
   image_path: "/assets/images/projects/appium/undraw_video_upload_3d4u.svg"
   alt: Video Record
   title: Video Record
+- excerpt: Allows running tests on different languages on Android and iOS platform.
+  image_path: "/assets/images/projects/appium/undraw_Around_the_world_re_n353.svg"
+  alt: Multi Language
+  title: Multi Language
 - excerpt: Provides facility to run tests on Cloud platforms like BrowserStack and
     SauceLabs.
   image_path: "/assets/images/projects/appium/undraw_going_up_ttm5.svg"
@@ -74,6 +80,10 @@ features:
   image_path: "/assets/images/projects/appium/undraw_check_boxes_m3d0.svg"
   alt: Inbuilt verification
   title: Inbuilt verification
+- image_path: "/assets/images/projects/appium/undraw_Video_streaming_re_v3qg.svg"
+  excerpt: Live video stream running tests on Android devices
+  title: Video streaming
+  alt: Video streaming
 ---
 
 [![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)][home]
@@ -84,12 +94,13 @@ features:
 [![Maintainability](https://sonarcloud.io/api/project_badges/measure?project=com.github.wasiqb.coteafs%3Aappium&metric=sqale_rating)](https://sonarcloud.io/component_measures?id=com.github.wasiqb.coteafs%3Aappium&metric=Maintainability)
 [![Reliability](https://sonarcloud.io/api/project_badges/measure?project=com.github.wasiqb.coteafs%3Aappium&metric=reliability_rating)](https://sonarcloud.io/component_measures?id=com.github.wasiqb.coteafs%3Aappium&metric=Reliability)
 [![Security](https://sonarcloud.io/api/project_badges/measure?project=com.github.wasiqb.coteafs%3Aappium&metric=security_rating)](https://sonarcloud.io/component_measures?id=com.github.wasiqb.coteafs%3Aappium&metric=Security)
-[![Vulnurability](https://sonarcloud.io/api/project_badges/measure?project=com.github.wasiqb.coteafs%3Aappium&metric=vulnerabilities)](https://sonarcloud.io/component_measures?id=com.github.wasiqb.coteafs%3Aappium&metric=new_vulnerabilities)
+[![Vulnerability](https://sonarcloud.io/api/project_badges/measure?project=com.github.wasiqb.coteafs%3Aappium&metric=vulnerabilities)](https://sonarcloud.io/component_measures?id=com.github.wasiqb.coteafs%3Aappium&metric=new_vulnerabilities)
 [![Duplicate Code](https://sonarcloud.io/api/project_badges/measure?project=com.github.wasiqb.coteafs%3Aappium&metric=duplicated_lines_density)](https://sonarcloud.io/component_measures?id=com.github.wasiqb.coteafs%3Aappium&metric=Duplications)
 [![Maven Central](https://img.shields.io/maven-central/v/com.github.wasiqb.coteafs/appium.svg)][maven]
 [![Github Releases](https://img.shields.io/github/downloads/WasiqB/coteafs-appium/total.svg)](https://github.com/WasiqB/coteafs-appium/releases)
 
 # Features:
+
 {% include feature_row id="features" %}
 
 [home]: /projects/appium/

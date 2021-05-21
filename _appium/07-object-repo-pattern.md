@@ -1,16 +1,13 @@
 ---
 title: ORP - Object Repository Pattern
 permalink: "/projects/appium/orp/"
-toc: true
 ---
 
-## Background
-
-### Problem Statement
+## Problem Statement
 
 When we write Appium tests traditionally, locators tend to get scattered around our tests and it becomes very difficult to maintain it. Now, when we use Page Object concept, although it is the most recommended approach, it can still be a problem with maintenance when there are too many activities in an App.
 
-### Solution provided by this framework
+## Solution provided by this framework
 
 This framework uses Object repository concept where all the user interactive elements are saved in their respective Activity classes and are declared in `DeviceElement` class. Hence, by using this concept it is easy to maintain the elements of a particular page, thereby, allowing us to access the elements easily.
 
@@ -19,6 +16,7 @@ This framework uses Object repository concept where all the user interactive ele
 The `DeviceElement` class saves all the elements available on current Activity in hierarchical structure. Instead of finding all the elements on driver, it will help finding elements in a single hierarchy. It is mandatory to have a root element of that Activity as parent and all it's interactive elements as it's child.
 
 ## Example
+
 Suppose you want to create a login test for a mobile app.
 Here is an example of how to create `DeviceElement` in `LoginActivity` class
 

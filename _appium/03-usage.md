@@ -1,7 +1,6 @@
 ---
 title: Usage
 permalink: "/projects/appium/usage/"
-toc: true
 ---
 
 ## Usage options
@@ -16,7 +15,7 @@ The framework can be used directly by adding dependency in the `pom.xml` file as
 <dependency>
   <groupId>com.github.wasiqb.coteafs</groupId>
   <artifactId>appium</artifactId>
-  <version>3.5.1</version>
+  <version>4.0.0</version>
 </dependency>
 ```
 

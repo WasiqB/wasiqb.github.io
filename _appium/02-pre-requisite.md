@@ -23,8 +23,8 @@ Tools | Version
 ------|---------
 [Java][jdk] | 15
 [NodeJS][node]  |  14+
-[Appium Server][appium]  |  1.19+
-[Appium Desktop][appium-desktop]  |  1.19+
+[Appium Server][appium]  |  1.20+
+[Appium Desktop][appium-desktop]  |  1.20+
 
 [jdk]: https://jdk.java.net/15/
 [node]: https://nodejs.org/en/download/v

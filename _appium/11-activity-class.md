@@ -1,10 +1,7 @@
 ---
 permalink: /projects/appium/activity-class/
 title: "Abstract Activity Class"
-toc: true
 ---
-
-## Abstract Activity class
 
 To introduce Page object flavor in tests, Abstract Activity classes are available for each type of supported platforms which can be used to create pages for each Activity under test. The available Abstract classes are listed below:
 

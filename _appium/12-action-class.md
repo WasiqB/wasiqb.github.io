@@ -1,7 +1,6 @@
 ---
 permalink: /projects/appium/action-class/
 title: "Abstract Activity Action Class"
-toc: true
 ---
 
 ## Background

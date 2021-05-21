@@ -18,13 +18,13 @@ appium:
         url: /projects/appium/usage/
   - title: Configuration
     children:
-      - title: Basics
+      - title: Basic Config structure
         url: /projects/appium/config-basics/
       - title: Server Setting
         url: /projects/appium/server-setting/
       - title: Device Setting
         url: /projects/appium/device-setting/
-  - title: Core
+  - title: Core Framework
     children:
       - title: ORP - Object Repository Pattern
         url: /projects/appium/orp/
@@ -34,7 +34,7 @@ appium:
         url: /projects/appium/supported-device-actions/
       - title: Supported Device Element Actions
         url: /projects/appium/supported-device-element-actions/
-  - title: Modularization
+  - title: Abstraction
     children:
       - title: Abstract Activity Class
         url: /projects/appium/activity-class/
@@ -56,8 +56,30 @@ appium:
         url: /projects/appium/screenshot/
       - title: Video Recording
         url: /projects/appium/video/
+      - title: Video streaming
+        url: /projects/appium/video-streaming
+      - title: Clipboard handling
+        url: /projects/appium/clipboard-handling
+      - title: Multiple Language support
+        url: /projects/appium/multi-language
       - title: Battery Check
         url: /projects/appium/battery/
+  # - title: Sample Server Configuration
+  #   children:
+  #     - title: Local server setting
+  #       url: /projects/appium/local-server-setting
+  #     - title: Cloud server setting
+  #       url: /projects/appium/cloud-server-setting
+  #     - title: Attach to already running server setting
+  #       url: /projects/appium/existing-server-setting
+  # - title: Sample Device Configuration
+  #   children:
+  #     - title: Real device setting
+  #       url: /projects/appium/real-device-setting
+  #     - title: Virtual device setting
+  #       url: /projects/appium/virtual-device-setting/
+  #     - title: Cloud device setting
+  #       url: /projects/appium/cloud-device-setting
   - title: Example
     children:
       - title: Config file
@@ -70,7 +92,7 @@ appium:
         url: /projects/appium/sample-action-class/
       - title: Test Class
         url: /projects/appium/sample-test-class/
-      - title: TestNG XML
+      - title: TestNG Yaml
         url: /projects/appium/sample-testng/
 
 selenium:

@@ -1,18 +1,15 @@
 ---
 permalink: /projects/appium/keyboard/
 title: "Keyboard Handling"
-toc: true
 ---
 
-## Keyboard Handling
-
 This is an added feature in the framework where you can `hide` the keyboard when you are done with typing.
-Also, provisions are also made to press `enter key`/ press `back key`.
+Also, provisions are also made to press `enter key` / press `back key`.
 This is feature is introduced for Android as well as iOS.
 
 Following is the code snippet of how to do it:
 
-### Android
+## Android
 
 ```java
 . . .
@@ -21,7 +18,7 @@ login.onDevice ().hideKeyboard ();
 . . .
 ```
 
-### iOS
+## iOS
 
 ```java
 . . .
@@ -29,8 +26,3 @@ final LoginActivity login = new LoginActivity (this.iosDevice);
 login.onDevice ().hideKeyboard (HideKeyboardStrategy.PRESS_KEY, "return");
 . . .
 ```
-
-### List of keyboard events available
-* `hideKeyboard ()`
-* `pressBack ()`
-* `pressEnter ()`

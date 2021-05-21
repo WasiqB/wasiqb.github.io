@@ -1,16 +1,13 @@
 ---
 title: Logging
 permalink: "/projects/appium/logging/"
-toc: true
 ---
 
-## Logging
+## Problem Statement
 
-### Problem Statement
+Many a time it happens that user is not able to identify which statement of code is running or where it gets stuck and he has to run the tests again in debug mode to make it clear.
 
-Many a time it happens that user is not able to identify which statement of code is running or where it gets stuckup and he has to run the tests again in debug mode to make it clear.
-
-### Solution provided by this framework
+## Solution provided by this framework
 
 This framework supports logging of low level events by using Log4j2. You can configure log4j2 config to turn on the logging.
 
@@ -28,7 +25,7 @@ Following is the sample output you'll get when logging is turned on.
 [21:26:23.432] [INFO ] - Tapping on element [Go]... (DeviceElementActions:)
 ```
 
-### Sample coteafs-logger config file
+## Sample coteafs-logger config file
 
 Following is the sample content of the `log4j2.yaml` which is used by the framework while executing it's tests.
 

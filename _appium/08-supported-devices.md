@@ -1,6 +1,6 @@
 ---
 title: Supported Devices
-permalink: "/projects/appium/supported-devices/"
+permalink: /projects/appium/supported-devices/
 ---
 
 In coteafs-appium, there is already a class for each type of supported platforms. They are listed below:

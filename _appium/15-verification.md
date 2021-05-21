@@ -1,7 +1,6 @@
 ---
 permalink: /projects/appium/verification/
 title: "Verification of Elements"
-toc: true
 ---
 
 ## Problem Statement
@@ -31,4 +30,4 @@ Name | Description
 `shouldBeDisplayed` | Verifies if the element is displayed or not.
 `shouldBeEnabled` | Verifies if the element is enabled or not.
 `shouldNotBeDisplayed` | Verifies if the element is hidden or not.
-`textShouldBeEqualTo` | Verifies if element text is equal to gievn string or not.
+`textShouldBeEqualTo` | Verifies if element text is equal to given string or not.

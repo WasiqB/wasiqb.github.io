@@ -1,7 +1,6 @@
 ---
 permalink: /projects/appium/supported-device-element-actions/
 title: "Supported Device Element Actions"
-toc: true
 ---
 
 ## Overview
@@ -9,9 +8,9 @@ toc: true
 There are plenty of device element specific actions which are supported in the framework and to trigger that action on device, you need to call the `onElement` method on the Current Activity and pass the element name on which you need to perform action. Same is illustrated below:
 
 ```java
-    . . .
-    login.onElement ("userName").enterText ("User1");
-    . . .
+  . . .
+  login.onElement ("userName").enterText ("User1");
+  . . .
 ```
 
 ## Actions common for all the device elements

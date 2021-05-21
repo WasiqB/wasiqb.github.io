@@ -1,9 +1,7 @@
 ---
-title: Sample TestNG XML
+title: Sample TestNG Yaml
 permalink: "/projects/appium/sample-testng/"
 ---
-
-## Sample TestNG.yaml
 
 This is sample `testng.yaml` file for demonstration purpose.
 
@@ -19,17 +17,20 @@ listeners:
   - com.github.wasiqb.coteafs.listeners.SuiteResultReporter
 tests:
   - name: Android Test
-    parameters: { server: browserstack, device: test_browserstack }
+    parameters: { server: browserstack, device: android_bs }
     classes:
       - name: com.github.wasiqb.coteafs.appium.android.VodQATest
         includedMethods:
-          - testLogin
-          - testLongPress
-          - testNativeView
-          - testSlider
-          - testVerticleSwipe
-          - testRotation
+          - test01Login
+          - test02NativeView
+          - test03LongPress
+          - test04Rotation
+          - test05Slider
+          - test06VerticalSwipe
+          - test07DragDrop
+          - test09PushPullFile
+          - test10ScrollOnDeviceUntilElement
+          - test11ScrollOnElementUntilElement
         excludedMethods:
-          - testDragDrop
-
+          - test08DoubleTap
 ```
