@@ -4,9 +4,9 @@ minimal_mistakes_skin    : "dark"
 locale                   : "en-US"
 title                    : &name "Wasiq Bhamla"
 title_separator          : "|"
-subtitle                 : "Open source contributor | Mentor | Senior QA Consultant at ThoughtWorks"
+subtitle                 : "Open source contributor | Mentor | Senior QA Consultant at Thoughtworks"
 name                     : *name
-description              : &description "Senior QA Consultant at ThoughtWorks"
+description              : &description "Senior QA Consultant at Thoughtworks"
 url                      : "https://wasiqb.github.io"
 repository               : "WasiqB/wasiqb.github.io"
 teaser                   : /assets/images/home_banner.jpg

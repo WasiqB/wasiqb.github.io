@@ -16,3 +16,5 @@ group :jekyll_plugins do
   gem "jekyll-seo-tag"
 end
 gem 'jekyll-admin', group: :jekyll_plugins
+
+gem "webrick", "~> 1.7"
