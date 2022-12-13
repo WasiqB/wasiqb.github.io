@@ -49,9 +49,8 @@ If you feel I can help you in any way then feel free to connect with me here on 
 [github]: https://github.com/WasiqB
 [linkedin]: https://www.linkedin.com/in/wasiqbhamla
 [twitter]: https://twitter.com/WasiqBhamla
-[project]: /projects/
 [blog]: /blogs/
 [org]: https://www.xnsio.com/
 [medium]: https://medium.com/@WasiqB
 [hashnode]: https://wasiqbhamla.hashnode.dev/
-[lambda-test]: https://www.lambdatest.com/blog/?s=Wasiq
+[lambda-test]: https://www.lambdatest.com/blog/author/wasiqbhamla/
