@@ -111,6 +111,7 @@ include:
   - _projects
   - _appium
   - _selenium
+  - ads.txt
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
