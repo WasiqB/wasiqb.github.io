@@ -35,7 +35,7 @@ const Certification = ({ certifications, loading }) => {
             className: 'my-1.5',
           })}
           body={skeleton({ width: 'w-6/12', height: 'h-3' })}
-        />
+        />,
       );
     }
 

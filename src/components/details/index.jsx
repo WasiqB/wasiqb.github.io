@@ -78,7 +78,7 @@ const Details = ({ profile, loading, social, github }) => {
           icon={skeleton({ width: 'w-4', height: 'h-4' })}
           title={skeleton({ width: 'w-24', height: 'h-4' })}
           value={skeleton({ width: 'w-full', height: 'h-4' })}
-        />
+        />,
       );
     }
 

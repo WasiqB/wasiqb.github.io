@@ -61,7 +61,7 @@ const ExternalProject = ({ externalProjects, loading, googleAnalytics }) => {
               </div>
             </div>
           </div>
-        </div>
+        </div>,
       );
     }
 

@@ -35,7 +35,7 @@ const Experience = ({ experiences, loading }) => {
             className: 'my-1.5',
           })}
           company={skeleton({ width: 'w-6/12', height: 'h-3' })}
-        />
+        />,
       );
     }
 

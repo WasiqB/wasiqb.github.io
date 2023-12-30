@@ -31,10 +31,10 @@ const bgColor = 'bg-base-300';
 
 const GitProfile = ({ config }) => {
   const [error, setError] = useState(
-    typeof config === 'undefined' && !config ? noConfigError : null
+    typeof config === 'undefined' && !config ? noConfigError : null,
   );
   const [sanitizedConfig] = useState(
-    typeof config === 'undefined' && !config ? null : sanitizeConfig(config)
+    typeof config === 'undefined' && !config ? null : sanitizeConfig(config),
   );
   const [theme, setTheme] = useState(null);
   const [loading, setLoading] = useState(true);
@@ -118,7 +118,7 @@ const GitProfile = ({ config }) => {
         new Date(),
         {
           addSuffix: true,
-        }
+        },
       );
 
       if (error.response.status === 403) {
@@ -271,7 +271,7 @@ GitProfile.propTypes = {
         description: PropTypes.string.isRequired,
         link: PropTypes.string.isRequired,
         imageUrl: PropTypes.string,
-      })
+      }),
     ),
     experiences: PropTypes.arrayOf(
       PropTypes.shape({
@@ -279,7 +279,7 @@ GitProfile.propTypes = {
         position: PropTypes.string,
         from: PropTypes.string,
         to: PropTypes.string,
-      })
+      }),
     ),
     certifications: PropTypes.arrayOf(
       PropTypes.shape({
@@ -287,7 +287,7 @@ GitProfile.propTypes = {
         name: PropTypes.string,
         year: PropTypes.string,
         link: PropTypes.string,
-      })
+      }),
     ),
     education: PropTypes.arrayOf(
       PropTypes.shape({
@@ -295,7 +295,7 @@ GitProfile.propTypes = {
         degree: PropTypes.string,
         from: PropTypes.string,
         to: PropTypes.string,
-      })
+      }),
     ),
     blog: PropTypes.shape({
       source: PropTypes.string,

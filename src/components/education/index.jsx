@@ -31,7 +31,7 @@ const Education = ({ loading, education }) => {
             className: 'my-1.5',
           })}
           institution={skeleton({ width: 'w-6/12', height: 'h-3' })}
-        />
+        />,
       );
     }
 

@@ -8,7 +8,7 @@ const Skill = ({ loading, skills }) => {
       array.push(
         <div key={index}>
           {skeleton({ width: 'w-16', height: 'h-4', className: 'm-1' })}
-        </div>
+        </div>,
       );
     }
 
