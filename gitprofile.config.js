@@ -24,7 +24,8 @@ const config = {
     email: 'wasbhamla2005@gmail.com',
   },
   resume: {
-    fileUrl: 'public/resume-wasiq-bhamla.pdf',
+    fileUrl:
+      'https://github.com/WasiqB/wasiqb.github.io/blob/main/public/resume-wasiq-bhamla.pdf',
   },
   skills: [
     'Selenium WebDriver',
@@ -135,7 +136,7 @@ const config = {
   },
   // Track visitor interaction and behavior. https://www.hotjar.com
   hotjar: {
-    id: '',
+    id: '3809335',
     snippetVersion: 6,
   },
   themeConfig: {
