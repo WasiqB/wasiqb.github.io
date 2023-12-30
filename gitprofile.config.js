@@ -1,67 +1,90 @@
-// gitprofile.config.js
-
 const config = {
   github: {
-    username: 'arifszn', // Your GitHub org/user name. (Required)
-    sortBy: 'stars', // stars | updated
-    limit: 10, // How many projects to display.
+    username: "WasiqB",
+    sortBy: "stars",
+    limit: 4,
     exclude: {
-      forks: false, // Forked projects will not be displayed if set to true.
-      projects: [], // These projects will not be displayed. example: ['my-project1', 'my-project2']
+      forks: false,
+      projects: [],
     },
   },
   social: {
-    linkedin: 'ariful-alam',
-    twitter: 'arif_szn',
-    mastodon: 'arifszn@mastodon.social',
-    facebook: '',
-    instagram: '',
-    youtube: '', // example: 'pewdiepie'
-    dribbble: '',
-    behance: '',
-    medium: 'arifszn',
-    dev: 'arifszn',
-    stackoverflow: '', // example: '1/jeff-atwood'
-    skype: '',
-    telegram: '',
-    website: 'https://arifszn.com',
-    phone: '',
-    email: 'arifulalamszn@gmail.com',
+    linkedin: "wasiqbhamla",
+    twitter: "WasiqBhamla",
+    facebook: "wasiqb",
+    instagram: "WasiqBhamla",
+    youtube: "WasiqBhamla",
+    medium: "WasiqB",
+    dev: "wasiqb",
+    stackoverflow: "5320558/wasiq-bhamla",
+    skype: "",
+    telegram: "",
+    website: "https://www.biodrop.io/WasiqB",
+    phone: "",
+    email: "wasbhamla2005@gmail.com",
   },
   resume: {
-    fileUrl:
-      'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
+    fileUrl: "public/resume-wasiq-bhamla.pdf",
   },
   skills: [
-    'PHP',
-    'Laravel',
-    'JavaScript',
-    'React.js',
-    'Node.js',
-    'Nest.js',
-    'MySQL',
-    'PostgreSQL',
-    'Git',
-    'Docker',
-    'PHPUnit',
-    'CSS',
-    'Antd',
-    'Tailwind',
+    "Selenium WebDriver",
+    "Appium",
+    "JavaScript",
+    "Java",
+    "TypeScript",
+    "WebDriverIO",
+    "Rest-Assured",
+    "GitHub Actions",
+    "Git",
+    "Docker",
+    "GitHub",
+    "BurpSuite",
+    "Postman",
+    "C#",
+    "Ruby",
   ],
   experiences: [
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'September 2021',
-      to: 'Present',
-      companyLink: 'https://example.com',
+      company: "Cognizant",
+      position: "Manager QA",
+      from: "August 2023",
+      to: "Present",
+      companyLink: "https://www.cognizant.com/",
     },
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'July 2019',
-      to: 'August 2021',
-      companyLink: 'https://example.com',
+      company: "Xnsio",
+      position: "Lead QA Engineer",
+      from: "October 2022",
+      to: "December 2022",
+      companyLink: "https://xnsio.com/",
+    },
+    {
+      company: "Thoughtworks",
+      position: "Senior QA Consultant",
+      from: "March 2019",
+      to: "September 2022",
+      companyLink: "https://www.thoughtworks.com/",
+    },
+    {
+      company: "CrossAsyst Technologies Pvt Ltd",
+      position: "Lead QA Automation Engineer",
+      from: "April 2018",
+      to: "March 2019",
+      companyLink: "https://www.crossasyst.com/",
+    },
+    {
+      company: "AurionPro Solutions Ltd",
+      position: "Senior Test Engineer",
+      from: "January 2015",
+      to: "March 2018",
+      companyLink: "https://www.aurionpro.com/",
+    },
+    {
+      company: "Financial Technologies India Ltd",
+      position: "Software Audit Lead",
+      from: "March 2007",
+      to: "January 2015",
+      companyLink: "https://www.63moons.com/",
     },
   ],
   /* certifications: [
@@ -74,56 +97,53 @@ const config = {
   ], */
   education: [
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2015',
-      to: '2019',
+      institution: "Burhani College of Commerce and Arts",
+      degree: "Bachelors of Commerce",
+      from: "2003",
+      to: "2006",
     },
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2012',
-      to: '2014',
+      institution: "Aptech Computer Education",
+      degree: "Advance Diploma in Software Engineering",
+      from: "2003",
+      to: "2007",
     },
   ],
 
-  // To hide the `My Projects` section, keep it empty.
   externalProjects: [
     {
-      title: 'Project Name',
+      title: "Boyka Framework",
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
-      imageUrl: 'https://via.placeholder.com/250x250',
-      link: 'https://example.com',
+        "🎉 Ultimate test automation framework for automating any application on any platform",
+      imageUrl: "https://avatars.githubusercontent.com/u/90917766?s=200&v=4",
+      link: "https://github.com/BoykaFramework/boyka-framework",
     },
     {
-      title: 'Project Name',
-      description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
-      imageUrl: 'https://via.placeholder.com/250x250',
-      link: 'https://example.com',
+      title: "Boyka Framework Command line tool",
+      description: "Command line tool for Boyka Framework",
+      imageUrl: "https://avatars.githubusercontent.com/u/90917766?s=200&v=4",
+      link: "https://github.com/BoykaFramework/boyka-cli",
     },
   ],
-  // Display blog posts from your medium or dev account. (Optional)
   blog: {
-    source: 'dev', // medium | dev
-    username: 'arifszn', // to hide blog section, keep it empty
-    limit: 2, // How many posts to display. Max is 10.
+    source: "medium", // medium | dev
+    username: "WasiqB",
+    limit: 4,
   },
   googleAnalytics: {
-    id: '', // GA3 tracking id/GA4 tag id UA-XXXXXXXXX-X | G-XXXXXXXXXX
+    id: "G-R5T0D2R02L", // GA3 tracking id/GA4 tag id UA-XXXXXXXXX-X | G-XXXXXXXXXX
   },
   // Track visitor interaction and behavior. https://www.hotjar.com
   hotjar: {
-    id: '',
+    id: "",
     snippetVersion: 6,
   },
   themeConfig: {
-    defaultTheme: 'wireframe',
+    defaultTheme: "cupcake",
 
     // Hides the switch in the navbar
     // Useful if you want to support a single color mode
-    disableSwitch: false,
+    disableSwitch: true,
 
     // Should use the prefers-color-scheme media-query,
     // using user system preferences, instead of the hardcoded defaultTheme
@@ -134,47 +154,47 @@ const config = {
 
     // Available themes. To remove any theme, exclude from here.
     themes: [
-      'light',
-      'dark',
-      'cupcake',
-      'bumblebee',
-      'emerald',
-      'corporate',
-      'synthwave',
-      'retro',
-      'cyberpunk',
-      'valentine',
-      'halloween',
-      'garden',
-      'forest',
-      'aqua',
-      'lofi',
-      'pastel',
-      'fantasy',
-      'wireframe',
-      'black',
-      'luxury',
-      'dracula',
-      'cmyk',
-      'autumn',
-      'business',
-      'acid',
-      'lemonade',
-      'night',
-      'coffee',
-      'winter',
-      'procyon',
+      "light",
+      "dark",
+      "cupcake",
+      "bumblebee",
+      "emerald",
+      "corporate",
+      "synthwave",
+      "retro",
+      "cyberpunk",
+      "valentine",
+      "halloween",
+      "garden",
+      "forest",
+      "aqua",
+      "lofi",
+      "pastel",
+      "fantasy",
+      "wireframe",
+      "black",
+      "luxury",
+      "dracula",
+      "cmyk",
+      "autumn",
+      "business",
+      "acid",
+      "lemonade",
+      "night",
+      "coffee",
+      "winter",
+      "procyon",
     ],
 
     // Custom theme
     customTheme: {
-      primary: '#fc055b',
-      secondary: '#219aaf',
-      accent: '#e8d03a',
-      neutral: '#2A2730',
-      'base-100': '#E3E3ED',
-      '--rounded-box': '3rem',
-      '--rounded-btn': '3rem',
+      primary: "#fc055b",
+      secondary: "#219aaf",
+      accent: "#e8d03a",
+      neutral: "#2A2730",
+      "base-100": "#E3E3ED",
+      "--rounded-box": "3rem",
+      "--rounded-btn": "3rem",
     },
   },
 
