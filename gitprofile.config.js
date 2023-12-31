@@ -24,8 +24,7 @@ const config = {
     email: 'wasbhamla2005@gmail.com',
   },
   resume: {
-    fileUrl:
-      'https://github.com/WasiqB/wasiqb.github.io/blob/main/public/resume-wasiq-bhamla.pdf',
+    fileUrl: '',
   },
   skills: [
     'Selenium WebDriver',
