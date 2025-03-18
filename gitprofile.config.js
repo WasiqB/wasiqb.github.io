@@ -19,7 +19,6 @@ const config = {
     stackoverflow: '5320558/wasiq-bhamla',
     skype: '',
     telegram: '',
-    website: 'https://www.biodrop.io/WasiqB',
     phone: '',
     email: 'wasbhamla2005@gmail.com',
   },
@@ -45,10 +44,17 @@ const config = {
   ],
   experiences: [
     {
+      company: 'Kafaat Business Solutions',
+      position: 'Senior Testing Specialist',
+      from: 'August 2024',
+      to: 'Present',
+      companyLink: 'https://kbs.sa/',
+    },
+    {
       company: 'Cognizant',
       position: 'Manager QA',
       from: 'August 2023',
-      to: 'Present',
+      to: 'June 2024',
       companyLink: 'https://www.cognizant.com/',
     },
     {
